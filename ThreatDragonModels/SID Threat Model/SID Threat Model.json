@@ -268,8 +268,8 @@
                 "text": "Login\n&\nAutentikasi"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -366,12 +366,73 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "ec884f62-4090-4f48-9a84-85da3211fb3e",
+                  "title": "Brute Force form login",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Eksternal Attacker melakukan brute force pada form login terhadap Data User.\n\n",
+                  "mitigation": "CAPTCHA",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": "8"
+                },
+                {
+                  "id": "c93f0dc0-85d9-4569-8c7d-942fb262db0e",
+                  "title": "Session Hijacking",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Eksternal Attacker melakukan session hijacking untuk mencuri Session/Token aktif user.\n\n",
+                  "mitigation": "HTTPS only, secure & httpOnly cookie, token rotation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": "9"
+                },
+                {
+                  "id": "abeb9911-e6a8-4e9a-821c-64da48a8f488",
+                  "title": "Phishing",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Eksternal Attacker membuat halaman login palsu untuk mencuri kredensial dari Data User.",
+                  "mitigation": "MFA and domain verification",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": "7"
+                },
+                {
+                  "id": "f074685f-f2c1-450d-a73d-a45118e5b668",
+                  "title": "Membanjiri (DOS) endpoint",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Eksternal Attacker membanjiri (DOS) endpoint validasiLogin() dengan request untuk melumpuhkan Proses Login/Autentikasi.\n\n",
+                  "mitigation": "Rate limiting, IP throttling, CAPTCHA, WAF",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 3,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -388,8 +449,8 @@
                 "text": "Pengajuan\nSurat"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -486,18 +547,53 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "4365b490-f9e3-4d7f-8392-ec3e1e7427b6",
+                  "title": "Menyisipkan XSS",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Eksternal Attacker menyisipkan XSS untuk mencuri session lalu mengakses (secara tidak sah) Data Penduduk dan Data Surat.\n\n",
+                  "mitigation": "Content Security Policy, output encoding, XSS filter",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": "8"
+                },
+                {
+                  "id": "fdc3bbad-0de5-4e8f-8db2-7dbde4644ce1",
+                  "title": "Membanjiri Surat Controller",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Eksternal Attacker membanjiri (DOS) Surat Controller dengan request createSurat() untuk mengganggu Proses Pengajuan Surat.\n\n",
+                  "mitigation": "Rate limiting per user, request queue, throttling",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
             "position": {
-              "x": 390,
-              "y": 188
+              "x": 380,
+              "y": 160
             },
             "size": {
               "width": 110,
@@ -628,8 +724,8 @@
                 "text": "Pesan\nPengaduan"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -726,12 +822,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "73ca2e93-1852-410c-afb4-26910fb07a1f",
+                  "title": "Menyisipkan XSS",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Eksternal Attacker menyisipkan XSS melalui form pengaduan untuk mencuri Session Token milik Admin Desa (melalui Data Pengaduan).\n\n",
+                  "mitigation": "Output encoding, Content Security Policy (CSP), sanitasi DOMPurify",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1099,7 +1217,13 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1221,58 +1345,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "loginForm",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "loginForm"
-            ],
-            "id": "f5d640b7-4c31-4e9f-a06f-bcc4adcded7f",
-            "source": {
-              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
-              "port": "404fc8d8-3773-437e-b6d3-871caac8a58d"
-            },
-            "target": {
-              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
-              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
-            },
-            "vertices": [
-              {
-                "x": 180,
-                "y": -90
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "createSurat",
               "description": "",
               "outOfScope": false,
@@ -1297,53 +1369,6 @@
             "target": {
               "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
               "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "insertSurat",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "insertSurat"
-            ],
-            "id": "75a1cfcb-93b6-4835-8b6e-fcaef7699ae8",
-            "source": {
-              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
-              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
-            },
-            "target": {
-              "cell": "6d5434d3-938f-4951-8aa7-a1bd48768c1f",
-              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
             },
             "vertices": []
           },
@@ -1634,53 +1659,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "createSession",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "createSession"
-            ],
-            "id": "ad893328-0030-49ca-a897-4f0796d33067",
-            "source": {
-              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
-              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
-            },
-            "target": {
-              "cell": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
-              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "querySurat",
               "description": "",
               "outOfScope": false,
@@ -1708,12 +1686,8 @@
             },
             "vertices": [
               {
-                "x": 940,
-                "y": 190
-              },
-              {
                 "x": 810,
-                "y": 210
+                "y": 205
               }
             ]
           },
@@ -1761,6 +1735,180 @@
             "target": {
               "cell": "ee920beb-574c-4e3b-a98b-ea60154f1930",
               "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "createSession",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "createSession"
+            ],
+            "id": "ad893328-0030-49ca-a897-4f0796d33067",
+            "source": {
+              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "target": {
+              "cell": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "loginForm",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "loginForm"
+            ],
+            "id": "f5d640b7-4c31-4e9f-a06f-bcc4adcded7f",
+            "source": {
+              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
+              "port": "404fc8d8-3773-437e-b6d3-871caac8a58d"
+            },
+            "target": {
+              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
+              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 20
+              },
+              {
+                "x": 200,
+                "y": -80
+              },
+              {
+                "x": 320,
+                "y": -145
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "insertSurat",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "98a12129-8523-4eff-834f-5dc34e37aaf3",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Eksternal Attacker menyisipkan SQL Injection untuk memanipulasi Data Surat dan Data Penduduk.",
+                  "mitigation": "Parameterized queries, ORM, input validation & whitelist",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": "9"
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "insertSurat"
+            ],
+            "id": "75a1cfcb-93b6-4835-8b6e-fcaef7699ae8",
+            "source": {
+              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "target": {
+              "cell": "6d5434d3-938f-4951-8aa7-a1bd48768c1f",
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
             },
             "vertices": []
           },
@@ -2141,6 +2289,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Niera",
-    "threatTop": 0
+    "threatTop": 16
   }
 }
