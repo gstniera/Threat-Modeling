@@ -20,7 +20,7 @@
           {
             "position": {
               "x": 80,
-              "y": 70
+              "y": 85
             },
             "size": {
               "width": 112.5,
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Warga",
@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 355,
-              "y": 55
+              "x": 340,
+              "y": -45
             },
             "size": {
               "width": 110,
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "18bcd838-37c9-4b38-a454-212c653dacca",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Registrasi\nAkun",
@@ -256,8 +256,8 @@
           },
           {
             "position": {
-              "x": 355,
-              "y": -105
+              "x": 230,
+              "y": -135
             },
             "size": {
               "width": 110,
@@ -275,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -358,7 +359,6 @@
               ]
             },
             "id": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Login\n&\nAutentikasi",
@@ -376,8 +376,8 @@
           },
           {
             "position": {
-              "x": 234,
-              "y": 145
+              "x": 480,
+              "y": 70
             },
             "size": {
               "width": 100,
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "010fccf2-1577-44ad-a22e-97ee3acad83c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Pengajuan\nSurat",
@@ -496,8 +496,8 @@
           },
           {
             "position": {
-              "x": 877,
-              "y": 55
+              "x": 280,
+              "y": 203
             },
             "size": {
               "width": 110,
@@ -515,6 +515,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -598,7 +599,6 @@
               ]
             },
             "id": "6fbd4235-dcbe-4386-88f3-c5debbf529cd",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Lihat Status\nSurat",
@@ -635,6 +635,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -718,7 +719,6 @@
               ]
             },
             "id": "28d1d082-a8ab-4f6a-adb6-9d77759e0a42",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Pesan\nPengaduan",
@@ -755,6 +755,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -838,7 +839,6 @@
               ]
             },
             "id": "ee920beb-574c-4e3b-a98b-ea60154f1930",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Lihat\nBerita Desa",
@@ -856,8 +856,8 @@
           },
           {
             "position": {
-              "x": 350,
-              "y": 268
+              "x": 770,
+              "y": -30
             },
             "size": {
               "width": 120,
@@ -878,6 +878,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -961,7 +962,6 @@
               ]
             },
             "id": "2b85f7cf-2347-414d-9b3f-024286669c60",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Data User",
@@ -980,8 +980,8 @@
           },
           {
             "position": {
-              "x": 520,
-              "y": 190
+              "x": 770,
+              "y": 410
             },
             "size": {
               "width": 120,
@@ -1002,6 +1002,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1085,7 +1086,6 @@
               ]
             },
             "id": "b732daea-2449-475c-b8db-da7ea54021ef",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Data Penduduk",
@@ -1104,8 +1104,8 @@
           },
           {
             "position": {
-              "x": 674,
-              "y": 218
+              "x": 961,
+              "y": 85
             },
             "size": {
               "width": 120,
@@ -1126,6 +1126,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1209,7 +1210,6 @@
               ]
             },
             "id": "6d5434d3-938f-4951-8aa7-a1bd48768c1f",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Data Surat",
@@ -1262,14 +1262,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "b6bb2241-45a2-4e38-ad90-db4856d37d1e",
+            "id": "ad893328-0030-49ca-a897-4f0796d33067",
             "source": {
-              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
-              "port": "1b6c4619-e142-4f63-83cb-d9b475865de3"
+              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
             },
             "target": {
-              "cell": "18bcd838-37c9-4b38-a454-212c653dacca",
-              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
+              "cell": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
             },
             "vertices": []
           },
@@ -1312,13 +1312,116 @@
             "id": "4856d686-708b-497c-95b1-89acfc8e8647",
             "source": {
               "cell": "18bcd838-37c9-4b38-a454-212c653dacca",
-              "port": "306a45e8-ba1b-4ffe-a7bd-339e200a49a1"
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
             },
             "target": {
               "cell": "2b85f7cf-2347-414d-9b3f-024286669c60",
-              "port": "ad24d202-8150-4cad-b8b9-e1a019383ab9"
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "75a1cfcb-93b6-4835-8b6e-fcaef7699ae8",
+            "source": {
+              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "target": {
+              "cell": "6d5434d3-938f-4951-8aa7-a1bd48768c1f",
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "4392c2ae-2881-4602-94c4-e1ca1caad076",
+            "source": {
+              "cell": "6fbd4235-dcbe-4386-88f3-c5debbf529cd",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "target": {
+              "cell": "6d5434d3-938f-4951-8aa7-a1bd48768c1f",
+              "port": "3b5b4d37-6238-4e7b-aa8e-023b774ffbce"
+            },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 220
+              },
+              {
+                "x": 660,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1367,8 +1470,8 @@
             },
             "vertices": [
               {
-                "x": 170,
-                "y": -40
+                "x": 160,
+                "y": -50
               }
             ]
           },
@@ -1408,21 +1511,125 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "ad893328-0030-49ca-a897-4f0796d33067",
+            "id": "b6bb2241-45a2-4e38-ad90-db4856d37d1e",
             "source": {
-              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
-              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
+              "port": "404fc8d8-3773-437e-b6d3-871caac8a58d"
             },
             "target": {
-              "cell": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
-              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
+              "cell": "18bcd838-37c9-4b38-a454-212c653dacca",
+              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "90549420-e66e-4dd5-b462-1b2c0080cdec",
+            "source": {
+              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
+              "port": "1b6c4619-e142-4f63-83cb-d9b475865de3"
+            },
+            "target": {
+              "cell": "6fbd4235-dcbe-4386-88f3-c5debbf529cd",
+              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "4b533074-7b6e-4a86-ae41-54293f4e23a8",
+            "source": {
+              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
+              "port": "1b6c4619-e142-4f63-83cb-d9b475865de3"
+            },
+            "target": {
+              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
+              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
             },
             "vertices": []
           },
           {
             "position": {
-              "x": 872,
-              "y": 218
+              "x": 1012,
+              "y": 410
             },
             "size": {
               "width": 120,
@@ -1443,6 +1650,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1526,7 +1734,6 @@
               ]
             },
             "id": "781ce059-31ff-41c1-b976-8c0352dd66b5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Data Pengaduan",
@@ -1567,6 +1774,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1650,7 +1858,6 @@
               ]
             },
             "id": "f113c2a7-bae5-4c48-9b77-1c672d1e5fc7",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Data Berita",
@@ -1691,6 +1898,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1774,7 +1982,6 @@
               ]
             },
             "id": "8291a025-eec0-468d-a3f0-fef40ddbd71a",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Audit Log",
@@ -1793,8 +2000,8 @@
           },
           {
             "position": {
-              "x": 640,
-              "y": -90
+              "x": 580,
+              "y": -120
             },
             "size": {
               "width": 120,
@@ -1815,6 +2022,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1898,7 +2106,6 @@
               ]
             },
             "id": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Session/Token",
