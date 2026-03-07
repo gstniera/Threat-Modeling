@@ -2432,120 +2432,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Regist",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Regist"
-            ],
-            "id": "5757626f-1dc4-483c-80fa-2f120d7f08f9",
-            "source": {
-              "cell": "659baaa5-3f24-4a40-8bb7-b0fcc1d9083e",
-              "port": "e127f448-10a9-4631-8a78-570cc5d0fac1"
-            },
-            "target": {
-              "cell": "3399966b-4a0e-448f-a48f-c0c989226121",
-              "port": "6d5f83a1-d5d0-47fa-9da7-9bfc829c1822"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
-            "vertices": [
-              {
-                "x": 70,
-                "y": 50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Simpan Akun",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Simpan Akun"
-            ],
-            "id": "8b16025c-ed7b-4e4c-a5c7-debaf313d420",
-            "source": {
-              "cell": "3399966b-4a0e-448f-a48f-c0c989226121",
-              "port": "5a78395f-9d5b-4b8a-90c3-02f03c5c83d1"
-            },
-            "target": {
-              "cell": "e371a39b-1d38-4b5f-8574-02f3bea14e0e",
-              "port": "d9da5656-0bc3-40cd-aa70-21087d4bf4dc"
-            },
-            "vertices": [
-              {
-                "x": 270,
-                "y": -50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "createSurat()",
               "description": "",
               "outOfScope": false,
@@ -2943,6 +2829,105 @@
               "port": "67ab926e-f166-4a6f-94f6-e69459e307fe"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Registrasi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Registrasi"
+            ],
+            "id": "eec8db58-af38-4afd-969b-0f1b6d1b7f6d",
+            "source": {
+              "cell": "659baaa5-3f24-4a40-8bb7-b0fcc1d9083e",
+              "port": "e127f448-10a9-4631-8a78-570cc5d0fac1"
+            },
+            "target": {
+              "cell": "3399966b-4a0e-448f-a48f-c0c989226121",
+              "port": "6d5f83a1-d5d0-47fa-9da7-9bfc829c1822"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Simpan Akun",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Simpan Akun"
+            ],
+            "id": "8b16025c-ed7b-4e4c-a5c7-debaf313d420",
+            "source": {
+              "cell": "3399966b-4a0e-448f-a48f-c0c989226121",
+              "port": "06ed5630-5713-4271-87b7-c2be77d94935"
+            },
+            "target": {
+              "cell": "e371a39b-1d38-4b5f-8574-02f3bea14e0e",
+              "port": "d9da5656-0bc3-40cd-aa70-21087d4bf4dc"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": -50
+              }
+            ]
           },
           {
             "position": {
@@ -5022,8 +5007,8 @@
           },
           {
             "position": {
-              "x": 132.5,
-              "y": -35
+              "x": 150,
+              "y": -15
             },
             "size": {
               "width": 60,
