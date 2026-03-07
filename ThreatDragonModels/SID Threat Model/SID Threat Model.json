@@ -1,0 +1,26 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "SID Threat Model",
+    "owner": "Tinkerbell",
+    "description": "Sistem Informasi Pemerintahan Desa Digital adalah sistem berbasis web yang digunakan untuk mendukung layanan administrasi desa, pengelolaan data penduduk, pengajuan surat-menyurat, pengelolaan anggaran desa, serta publikasi informasi desa secara transparan.\nFitur utama:\n- Pengelolaan data penduduk\n- Pengajuan dan penerbitan surat\n- Pengelolaan APBDes\n- Pengaduan masyarakat\n- Publikasi berita & informasi desa",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "SID Data Flow Diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Niera",
+    "threatTop": 0
+  }
+}
