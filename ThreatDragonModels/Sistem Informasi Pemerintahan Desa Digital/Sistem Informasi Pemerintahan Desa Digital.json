@@ -710,7 +710,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Login",
-              "description": "",
+              "description": "Proses autentikasi pengguna untuk mengakses sistem desa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -950,7 +950,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Pengajuan\nSurat",
-              "description": "",
+              "description": "Proses warga mengajukan surat administrasi desa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -1070,7 +1070,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Verifikasi\nSurat",
-              "description": "",
+              "description": "Admin desa memverifikasi dan memproses surat yang diajukan warga.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2483,7 +2483,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "CRUD Berita",
+              "name": "Input Berita",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2497,7 +2497,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "CRUD Berita"
+              "Input Berita"
             ],
             "id": "4e69f078-9c2b-46bf-8546-3d8fef3579f7",
             "source": {
@@ -2535,7 +2535,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Simpan Berita",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2549,9 +2549,9 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Simpan Berita"
             ],
-            "id": "13acd448-03d3-4dda-aa26-7652aca24262",
+            "id": "9c0f6949-0483-4eb0-a88b-19dce626a822",
             "source": {
               "cell": "fdf20225-ff46-4680-9c4e-3faab17335e5",
               "port": "1842422b-e7f2-42b8-8f22-349af3a60e51"
@@ -2562,100 +2562,18 @@
             },
             "vertices": [
               {
-                "x": 580,
+                "x": 550,
                 "y": 350
               },
               {
-                "x": 680,
+                "x": 730,
                 "y": 400
               },
               {
-                "x": 750,
-                "y": 400
-              },
-              {
-                "x": 720,
-                "y": 400
-              },
-              {
-                "x": 830,
-                "y": 400
-              },
-              {
-                "x": 890,
-                "y": 330
+                "x": 850,
+                "y": 370
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -2765,7 +2683,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nData\nPenduduk",
-              "description": "",
+              "description": "Admin desa mengelola data penduduk desa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -2885,7 +2803,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nAPBDes",
-              "description": "",
+              "description": "Bendahara mengelola data anggaran desa dan laporan keuangan.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3245,7 +3163,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nPengaduan",
-              "description": "",
+              "description": "Warga menyampaikan pengaduan terkait pelayanan desa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3365,7 +3283,7 @@
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nBerita\nDesa",
-              "description": "",
+              "description": "Admin desa mempublikasikan berita dan informasi desa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3728,7 +3646,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data User",
-              "description": "",
+              "description": "userID\nusername\npassword_hash\nrole\nstatus",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3852,7 +3770,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data Penduduk",
-              "description": "",
+              "description": "NIK\nNama\nAlamat\nTanggal Lahir",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -3976,7 +3894,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data Surat",
-              "description": "",
+              "description": "idSurat\njenisSurat\ntanggal\nstatus",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -4100,7 +4018,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data APBDes",
-              "description": "",
+              "description": "total\ntahun",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -4224,7 +4142,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data Pengaduan",
-              "description": "",
+              "description": "id\ntanggal\nisi\nstatus",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -4239,8 +4157,8 @@
           },
           {
             "position": {
-              "x": 970,
-              "y": 280
+              "x": 976,
+              "y": 320
             },
             "size": {
               "width": 120,
@@ -4348,7 +4266,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Data Berita",
-              "description": "",
+              "description": "id\njudul\nisi \ntanggal publish",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -4720,7 +4638,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Audit Log",
-              "description": "",
+              "description": "logID\nuserID\naction\ntimestamp\nipAddress",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
