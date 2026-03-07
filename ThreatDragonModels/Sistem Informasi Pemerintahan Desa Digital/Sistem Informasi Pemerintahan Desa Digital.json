@@ -2304,20 +2304,6 @@
               "cell": "acc55013-453a-4b97-84c7-a44ec2ca4a37",
               "port": "7a44bffd-6864-468c-b279-7e123b4c19a5"
             },
-            "vertices": [
-              {
-                "x": 740,
-                "y": 520
-              },
-              {
-                "x": 940,
-                "y": 310
-              },
-              {
-                "x": 940,
-                "y": 170
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -2367,7 +2353,21 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": 520
+              },
+              {
+                "x": 940,
+                "y": 310
+              },
+              {
+                "x": 940,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2573,12 +2573,6 @@
               "cell": "3399966b-4a0e-448f-a48f-c0c989226121",
               "port": "6d5f83a1-d5d0-47fa-9da7-9bfc829c1822"
             },
-            "vertices": [
-              {
-                "x": 70,
-                "y": 50
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -2588,7 +2582,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 70,
+                "y": 50
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2846,6 +2846,110 @@
               {
                 "x": 30,
                 "y": 880
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Tindak Lanjut",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Tindak Lanjut"
+            ],
+            "id": "761b0e1a-4a8b-4728-8893-f21a1a7e6235",
+            "source": {
+              "cell": "112a0514-0652-4792-9d51-43575ee182a9",
+              "port": "b950c51e-4063-4484-8ebb-2dd4deabf259"
+            },
+            "target": {
+              "cell": "2ed237bb-3b1c-4728-ab29-8ed14a07094d",
+              "port": "67ab926e-f166-4a6f-94f6-e69459e307fe"
+            },
+            "vertices": [
+              {
+                "x": 40,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read/Update",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Read/Update"
+            ],
+            "id": "fac882a9-3044-48ff-b989-b8e32c035fc9",
+            "source": {
+              "cell": "2ed237bb-3b1c-4728-ab29-8ed14a07094d",
+              "port": "1842422b-e7f2-42b8-8f22-349af3a60e51"
+            },
+            "target": {
+              "cell": "ac8299da-2282-4303-9128-d597d1dfee4d",
+              "port": "4add154d-8d1c-4965-bb9e-2d13e0c5016e"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 430
               }
             ]
           },
@@ -3331,8 +3435,8 @@
           },
           {
             "position": {
-              "x": 1416,
-              "y": 720
+              "x": 180,
+              "y": 420
             },
             "size": {
               "width": 80,
@@ -4946,6 +5050,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -5029,7 +5134,6 @@
               ]
             },
             "id": "3399966b-4a0e-448f-a48f-c0c989226121",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Registrasi",
@@ -5066,6 +5170,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -5149,7 +5254,6 @@
               ]
             },
             "id": "047f9475-860a-40ec-8d61-c0eba0a29b42",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Pengajuan\nPengaduan",
