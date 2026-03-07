@@ -487,8 +487,8 @@
           },
           {
             "position": {
-              "x": -55,
-              "y": -180
+              "x": -60,
+              "y": -190
             },
             "size": {
               "width": 112.5,
@@ -2163,122 +2163,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Assign Role",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Assign Role"
-            ],
-            "id": "f2505c89-0dbf-44d9-9472-aeb72eef2279",
-            "source": {
-              "cell": "7e707b70-388b-4880-b896-16b49007ab2a",
-              "port": "d3901c70-7d9a-45b4-a57b-ea35d4ed34e8"
-            },
-            "target": {
-              "cell": "16a617a8-64fc-45b8-b39f-3f48e042e236",
-              "port": "67ab926e-f166-4a6f-94f6-e69459e307fe"
-            },
-            "vertices": [
-              {
-                "x": 90,
-                "y": -220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update Role",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Update Role"
-            ],
-            "id": "f980a7ee-41bc-4424-b82b-669a090ab2b4",
-            "source": {
-              "cell": "16a617a8-64fc-45b8-b39f-3f48e042e236",
-              "port": "aade97c3-d200-4cc3-8cb3-580ca998e50e"
-            },
-            "target": {
-              "cell": "e371a39b-1d38-4b5f-8574-02f3bea14e0e",
-              "port": "7a44bffd-6864-468c-b279-7e123b4c19a5"
-            },
-            "vertices": [
-              {
-                "x": 300,
-                "y": -210
-              },
-              {
-                "x": 410,
-                "y": -210
-              },
-              {
-                "x": 530,
-                "y": -190
-              },
-              {
-                "x": 550,
-                "y": -100
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Update Status",
               "description": "",
               "outOfScope": false,
@@ -2952,6 +2836,113 @@
                 "y": 430
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update Role",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Update Role"
+            ],
+            "id": "f980a7ee-41bc-4424-b82b-669a090ab2b4",
+            "source": {
+              "cell": "b3a615dd-d0c2-4b54-843e-420fabd3d8ba",
+              "port": "1842422b-e7f2-42b8-8f22-349af3a60e51"
+            },
+            "target": {
+              "cell": "e371a39b-1d38-4b5f-8574-02f3bea14e0e",
+              "port": "7a44bffd-6864-468c-b279-7e123b4c19a5"
+            },
+            "vertices": [
+              {
+                "x": 530,
+                "y": -245
+              },
+              {
+                "x": 590,
+                "y": -160
+              },
+              {
+                "x": 570,
+                "y": -80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Assign Role",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Assign Role"
+            ],
+            "id": "df87beb9-5ce0-443d-93d2-58f516fc92e8",
+            "source": {
+              "cell": "7e707b70-388b-4880-b896-16b49007ab2a",
+              "port": "1805cdb2-8813-4b7b-a365-dc203c676e52"
+            },
+            "target": {
+              "cell": "b3a615dd-d0c2-4b54-843e-420fabd3d8ba",
+              "port": "67ab926e-f166-4a6f-94f6-e69459e307fe"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -3795,8 +3786,8 @@
           },
           {
             "position": {
-              "x": 1076,
-              "y": 735
+              "x": 326,
+              "y": -295
             },
             "size": {
               "width": 60,
