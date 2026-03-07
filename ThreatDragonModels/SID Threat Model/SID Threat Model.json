@@ -376,8 +376,8 @@
           },
           {
             "position": {
-              "x": 684,
-              "y": 55
+              "x": 234,
+              "y": 145
             },
             "size": {
               "width": 100,
@@ -980,8 +980,8 @@
           },
           {
             "position": {
-              "x": 576,
-              "y": -90
+              "x": 520,
+              "y": 190
             },
             "size": {
               "width": 120,
@@ -1373,6 +1373,53 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "ad893328-0030-49ca-a897-4f0796d33067",
+            "source": {
+              "cell": "0cfe32f2-5349-4fe6-89d7-ac7a77612ba9",
+              "port": "99f5b7b4-820b-4dc3-938f-d6935b567ab8"
+            },
+            "target": {
+              "cell": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
+              "port": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 872,
               "y": 218
@@ -1731,6 +1778,130 @@
             "data": {
               "type": "tm.Store",
               "name": "Audit Log",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 640,
+              "y": -90
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Session/Token"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ad24d202-8150-4cad-b8b9-e1a019383ab9"
+                },
+                {
+                  "group": "right",
+                  "id": "e0537c07-5471-4b93-99f5-74bb41d57693"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3b5b4d37-6238-4e7b-aa8e-023b774ffbce"
+                },
+                {
+                  "group": "left",
+                  "id": "d36d8e6c-bd93-4bac-9c76-1a9f94a66055"
+                }
+              ]
+            },
+            "id": "0a584d8c-58c8-483e-bbd6-4fee5cd2e610",
+            "zIndex": 14,
+            "data": {
+              "type": "tm.Store",
+              "name": "Session/Token",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
