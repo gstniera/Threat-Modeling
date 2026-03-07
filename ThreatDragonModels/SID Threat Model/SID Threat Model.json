@@ -1345,53 +1345,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "createSurat",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "createSurat"
-            ],
-            "id": "4b533074-7b6e-4a86-ae41-54293f4e23a8",
-            "source": {
-              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
-              "port": "1b6c4619-e142-4f63-83cb-d9b475865de3"
-            },
-            "target": {
-              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
-              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "getSuratRequest",
               "description": "",
               "outOfScope": false,
@@ -1913,6 +1866,73 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "createSurat",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "779eca52-6cac-4e7a-8796-ac0c8ad7b35e",
+                  "title": "Memanipulasi suratID",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Warga memanipulasi suratId para request untuk mengakses Data Surat milik warga lain.\n\n",
+                  "mitigation": "Object-level authorization (IDOR fix), validasi kepemilikan resource",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "createSurat"
+            ],
+            "id": "4b533074-7b6e-4a86-ae41-54293f4e23a8",
+            "source": {
+              "cell": "5dc971d1-f35d-459a-9ed5-5779866a4ac7",
+              "port": "1b6c4619-e142-4f63-83cb-d9b475865de3"
+            },
+            "target": {
+              "cell": "010fccf2-1577-44ad-a22e-97ee3acad83c",
+              "port": "89bb5b8c-49c2-440d-9849-b9d601dd02b3"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 782,
               "y": 298
@@ -2289,6 +2309,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Niera",
-    "threatTop": 16
+    "threatTop": 17
   }
 }
