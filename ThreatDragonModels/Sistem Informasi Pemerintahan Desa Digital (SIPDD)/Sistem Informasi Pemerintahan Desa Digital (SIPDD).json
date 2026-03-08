@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": -602.5,
-              "y": -590
+              "x": 251.5,
+              "y": -180
             },
             "size": {
               "width": 112.5,
@@ -1254,7 +1254,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               ""
@@ -1306,7 +1308,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Login [HTTPS]: \ncredentials -> \nsession token / error"
@@ -1512,7 +1516,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Data Flow"
@@ -1564,7 +1570,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Submit surat \n[HTTPS+Token] ->\nkonfirmasi nomor surat"
@@ -1780,7 +1788,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               ""
@@ -1836,7 +1846,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Submit pengaduan \n[HTTPS+Token] ->\nkonfirmasi diterima"
@@ -1939,7 +1951,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               ""
@@ -1995,7 +2009,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Request berita \n[HTTPS, publik] -> \ntampil konten berita"
@@ -2155,7 +2171,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               ""
@@ -2202,7 +2220,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
+              ]
             },
             "labels": [
               "Cek status surat \n[HTTPS+Token] -> \nhasil status (IDOR-checked)"
@@ -2217,6 +2237,255 @@
               "port": "8179f510-1fc4-4d1a-af00-052767442abf"
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "49082987-b51f-422e-a905-598f8597f5d1",
+                "0216a629-95cd-4440-9d0c-d12e05e2223a",
+                "12004d6d-369c-41ac-8272-67e60cdd6ef0",
+                "8fc5eca7-b934-4ef1-bf3b-0664484febcc",
+                "a9096cc7-bb4f-4d51-8d8b-78ecdd8261c1",
+                "8878ad70-5b97-4e62-83a1-7f35228065a9",
+                "95cf4309-17ca-4847-9070-24d356e3f29a",
+                "1b235500-9a3f-4bed-ba34-eeda05c73623",
+                "7735cc1c-157b-45c8-99fa-d7e3018f6cae",
+                "01bcb6b9-5dec-4289-b02a-86bc887d749e"
+              ],
+              "containedElements": [
+                "51a1dff5-6d95-4d00-a92e-b2ab81cb2e36"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "1ec339ed-b8a5-42a9-bafb-c53b585ac61d",
+            "source": {
+              "x": -991,
+              "y": -280
+            },
+            "target": {
+              "x": -1050,
+              "y": -60
+            },
+            "vertices": [
+              {
+                "x": -870,
+                "y": -160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Brute force \n[DITOLAK: rate limit]",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72"
+              ]
+            },
+            "labels": [
+              "Brute force \n[DITOLAK: rate limit]"
+            ],
+            "id": "e8b30b49-79cc-42db-864a-c01329a42744",
+            "source": {
+              "cell": "64840d94-2b46-48da-809a-b5f00e834edc",
+              "port": "be5ca7a0-c130-45e4-9856-9663ad217365"
+            },
+            "target": {
+              "cell": "fbdf2da1-55b7-4868-8461-b11d07dee8a5",
+              "port": "60cba828-0214-473e-b856-748cfe6aa7d6"
+            },
+            "vertices": [
+              {
+                "x": -280,
+                "y": -260
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "SQL Injection \n/ DoS flood \n[DITOLAK: WAF + rate limit]",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72"
+              ]
+            },
+            "labels": [
+              "SQL Injection \n/ DoS flood \n[DITOLAK: WAF + rate limit]"
+            ],
+            "id": "9044ede0-b5b5-4db6-8229-4c18af324da8",
+            "source": {
+              "cell": "64840d94-2b46-48da-809a-b5f00e834edc",
+              "port": "be5ca7a0-c130-45e4-9856-9663ad217365"
+            },
+            "target": {
+              "cell": "8c6809a7-5be1-48f2-af53-575499e05dc5",
+              "port": "60cba828-0214-473e-b856-748cfe6aa7d6"
+            },
+            "vertices": [
+              {
+                "x": -70,
+                "y": -55
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "XSS payload \nvia form pengaduan\n [DITOLAK: sanitasi]",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72"
+              ]
+            },
+            "labels": [
+              "XSS payload \nvia form pengaduan\n [DITOLAK: sanitasi]"
+            ],
+            "id": "e70f9593-5ed1-4a68-b1bb-2709cb385ff8",
+            "source": {
+              "cell": "64840d94-2b46-48da-809a-b5f00e834edc",
+              "port": "be5ca7a0-c130-45e4-9856-9663ad217365"
+            },
+            "target": {
+              "cell": "90d42bab-e369-400e-8b16-6f63b0a4410e",
+              "port": "c1d4c6c4-4170-45b1-90cf-5d171df71312"
+            },
+            "vertices": [
+              {
+                "x": 60,
+                "y": -20
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e8b30b49-79cc-42db-864a-c01329a42744",
+                "9044ede0-b5b5-4db6-8229-4c18af324da8",
+                "e70f9593-5ed1-4a68-b1bb-2709cb385ff8"
+              ],
+              "containedElements": [
+                "64840d94-2b46-48da-809a-b5f00e834edc"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72",
+            "source": {
+              "x": 370,
+              "y": -260
+            },
+            "target": {
+              "x": 360,
+              "y": -40
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": -130
+              }
+            ]
           },
           {
             "position": {
