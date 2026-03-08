@@ -2865,7 +2865,12 @@
               "cell": "a3e85b1a-2389-4b8c-a014-69b24c0d837b",
               "port": "ac041661-dbf4-4a97-99b8-efac7503313b"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 110,
+                "y": 410
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2912,7 +2917,12 @@
               "cell": "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
               "port": "e102c86f-5b40-4729-983d-a835f6880364"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 110,
+                "y": 410
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2962,11 +2972,15 @@
             "vertices": [
               {
                 "x": -160,
-                "y": 280
+                "y": 310
               },
               {
-                "x": 130,
-                "y": 240
+                "x": 140,
+                "y": 270
+              },
+              {
+                "x": 390,
+                "y": 160
               }
             ]
           },
@@ -4005,8 +4019,8 @@
           },
           {
             "position": {
-              "x": -310,
-              "y": 670
+              "x": -610,
+              "y": 770
             },
             "size": {
               "width": 120,
@@ -4125,8 +4139,8 @@
           },
           {
             "position": {
-              "x": -127.00000000000006,
-              "y": 680
+              "x": 390,
+              "y": 750
             },
             "size": {
               "width": 100,
@@ -4383,58 +4397,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 31,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
-            "source": {
-              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-              "port": "e102c86f-5b40-4729-983d-a835f6880364"
-            },
-            "target": {
-              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
-            },
-            "vertices": [
-              {
-                "x": -30,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 32,
             "connector": "smooth",
             "data": {
@@ -4470,6 +4432,100 @@
                 "y": 330
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 33,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "6bb92b86-4df4-408d-a298-1d46b2576853",
+            "source": {
+              "cell": "21372ea3-3828-4506-8afb-8f2c14bb579a",
+              "port": "132c91ce-9bbf-400e-9666-e30e7b10caa6"
+            },
+            "target": {
+              "cell": "e9d331b4-92ba-4816-8d9b-72c20089420f",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 34,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Buka & respons pengaduan \n[HTTPS+Token] ->\nupdate tindak lanjut",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Buka & respons pengaduan \n[HTTPS+Token] ->\nupdate tindak lanjut"
+            ],
+            "id": "65ccc861-8b38-4744-b658-047d57c27be1",
+            "source": {
+              "cell": "e9d331b4-92ba-4816-8d9b-72c20089420f",
+              "port": "bea62052-2cbb-40d2-a09d-15de1a4a929f"
+            },
+            "target": {
+              "cell": "21372ea3-3828-4506-8afb-8f2c14bb579a",
+              "port": "132c91ce-9bbf-400e-9666-e30e7b10caa6"
+            },
+            "vertices": []
           }
         ]
       }
