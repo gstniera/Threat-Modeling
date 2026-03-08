@@ -19,7 +19,115 @@
         "cells": [
           {
             "position": {
-              "x": -20,
+              "x": 1035.9999999999986,
+              "y": 140.00000000000057
+            },
+            "size": {
+              "width": 280,
+              "height": 660
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "73e01305-9521-41fd-997e-557cd4d7d955",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "0e1bd8cb-775f-4f90-9a49-43fc07dd3c3b",
+                "00c83f97-80ae-466d-95bb-fcbd4619f54b",
+                "6a51d0b7-4d17-4c55-9b8c-28db6a385f84",
+                "8b70494d-6396-418d-90ec-e81918a2ceec",
+                "277601ff-5476-4ac3-8464-a1164388a117",
+                "2244067a-60fb-470b-b8af-04fa8724d4b0",
+                "c823c9ca-bfb9-4ea0-bd7b-7125355497c6",
+                "ad5f4b8c-fd55-404a-9c54-2201d1b37b38",
+                "8f1c5238-779d-425b-bb14-a2b47977c227",
+                "b0a84d04-2715-4992-988b-0b9bb4df8f9a",
+                "b0a7ecc8-b6fb-4809-b02e-c83324e637c7",
+                "d7dd70b5-f356-4e15-808d-b574feefc469",
+                "926fcf74-4068-4d3f-abd2-747c6527e05e"
+              ],
+              "containedElements": [
+                "307a44de-775b-4f1c-8af8-5ad19de2ee67",
+                "5b029fbf-9372-4183-a0de-4d025735bffe",
+                "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+                "583c0f2c-35cc-4f5f-9b24-bf887b43435d"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 150,
+              "y": -140
+            },
+            "size": {
+              "width": 1330,
+              "height": 1670
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "5baa8481-d6e8-4c3f-8901-9590e5a47d5c",
+                "2792e609-8e87-4a9d-b105-a2d0ce6f0281",
+                "1987ade6-f6a6-423d-8d6a-b2b6f31a2889",
+                "66aca269-6eec-4449-b417-0537bf069a3c",
+                "fabf84e6-2522-4460-b9b0-42da92fae5ac",
+                "46781316-3e3d-4fc4-8a0e-cc7a4b57d3d4",
+                "a128fa78-b560-408d-94c7-6510e23f809f",
+                "ba81df4f-322a-46d0-99bd-cf578a286342",
+                "b735b4c5-9530-4912-88e3-99ef8099ff7d",
+                "f6bbe11c-2724-41a4-beb9-683e4a1457fd",
+                "59c67f42-cc4e-4032-9c2e-8f3d670d5363",
+                "5e71c078-c67a-4e1e-a9ef-89d211f3137f",
+                "d925999f-7e35-43f4-9182-414a72d74ce5",
+                "49361402-4182-4ef7-8a15-c2b395d2c8d5",
+                "4591d725-d9d5-4c4f-98ee-e1aaa40d34cf",
+                "13517e26-3ce1-495f-928c-7d627687a888",
+                "c30d0ae8-2387-4ff4-abdd-69b459dae6b9",
+                "5adc199d-e715-4113-b008-1c02aac2d6a7",
+                "6befe155-a592-4862-a0bd-e46690c1497c",
+                "06746d87-721e-49d1-b834-55729aa894ff",
+                "efc51d96-b736-4bac-90b7-033a27010cc5",
+                "ac0c5ad5-5acb-4d7c-9bb9-09f5b6e0bf1b",
+                "08ecf5b4-c0ca-4652-8409-e9d132d12854"
+              ],
+              "containedElements": [
+                "73e01305-9521-41fd-997e-557cd4d7d955",
+                "51d3d893-aba8-48b3-88d3-986b418ea2b8",
+                "307a44de-775b-4f1c-8af8-5ad19de2ee67",
+                "8433ccd7-b2c9-4d60-9d75-cac5292a29dd",
+                "5b029fbf-9372-4183-a0de-4d025735bffe",
+                "bd54a2d3-4ed2-465d-a065-47e3f62c8ab2",
+                "9f6ff35f-0a32-4723-9b8c-7c6e8a2a0a8a",
+                "e878b833-842d-4bc1-95b2-cbacbb670f46",
+                "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+                "08eae217-ea56-4f04-a075-dac2eb67de8a",
+                "3a03bf5d-dfc3-45a2-ba17-1d86c175a093",
+                "4456c88f-737c-47e2-8283-85c7cf0d1e7e",
+                "ae7aa136-f079-4899-b460-867036a5d786",
+                "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
+                "583c0f2c-35cc-4f5f-9b24-bf887b43435d",
+                "e4d78ece-fc34-406f-9746-e1a0e8d6bdd5",
+                "1d5beaba-1a00-46b7-81bb-66f7e4547a6e",
+                "f7352c87-4e65-4aaa-9f5d-c60466fa5954"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -40,
               "y": 90
             },
             "size": {
@@ -288,7 +396,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Requests"
@@ -340,7 +450,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Responses"
@@ -392,7 +504,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "SQL Query"
@@ -444,7 +558,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Data"
@@ -496,7 +612,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -548,7 +666,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -600,7 +720,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "SQL Query"
@@ -652,7 +774,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -704,7 +828,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "CRUD Data\nPenduduk"
@@ -756,7 +882,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Surat Data"
@@ -824,7 +952,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Old -> new"
@@ -884,7 +1014,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -936,7 +1068,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -983,7 +1117,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "SQL Query"
@@ -999,8 +1135,8 @@
             },
             "vertices": [
               {
-                "x": 970,
-                "y": 730
+                "x": 940,
+                "y": 720
               },
               {
                 "x": 1030,
@@ -1039,7 +1175,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Update Status\n& Signature"
@@ -1095,7 +1233,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(Status + Digital Sig)"
@@ -1147,7 +1287,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(suratId, status)"
@@ -1199,7 +1341,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -1246,7 +1390,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(Crosscheck NIK)"
@@ -1397,7 +1543,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request"
@@ -1449,7 +1597,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(session)"
@@ -1496,7 +1646,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request\n(anggaran, nilai, tahun)"
@@ -1548,7 +1700,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(Confirmation)"
@@ -1600,7 +1754,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Insert/Update"
@@ -1652,7 +1808,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Old -> new\nke Audit Log"
@@ -1699,7 +1857,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(session"
@@ -1746,7 +1906,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(session, role)"
@@ -1793,7 +1955,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(session, role)"
@@ -1840,7 +2004,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request + MFA"
@@ -1892,7 +2058,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Request\n(userid, aksi)"
@@ -1944,7 +2112,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response\n(status, role)"
@@ -1996,7 +2166,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "SQL Query\n(update role)"
@@ -2060,7 +2232,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Response\n(new role ke Audit log)"
@@ -2090,6 +2264,146 @@
               {
                 "x": 990,
                 "y": 1340
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "b98ac143-a6a9-4772-a52c-adba4f38197b",
+            "source": {
+              "x": 10,
+              "y": 260
+            },
+            "target": {
+              "x": 10,
+              "y": 430
+            },
+            "vertices": [
+              {
+                "x": 110,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "4cc47eff-4671-435a-aff5-42ede1b254e7",
+            "source": {
+              "x": 0,
+              "y": 630
+            },
+            "target": {
+              "x": 20,
+              "y": 860
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 740
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "7f8519ef-ae59-4d04-8df9-8f641005607c",
+            "source": {
+              "x": -20,
+              "y": 970
+            },
+            "target": {
+              "x": 0,
+              "y": 1180
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 1070
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "97b5de43-7b54-40ec-8e42-034620fc4d5c",
+            "source": {
+              "x": 1,
+              "y": 1259
+            },
+            "target": {
+              "x": 20,
+              "y": 1410
+            },
+            "vertices": [
+              {
+                "x": 130,
+                "y": 1300
+              },
+              {
+                "x": 101,
+                "y": 1359
               }
             ]
           },
@@ -2609,7 +2923,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Attack Attempts \n[REJECTED]"
@@ -2636,7 +2952,7 @@
           },
           {
             "position": {
-              "x": -20,
+              "x": -40,
               "y": 310
             },
             "size": {
@@ -3142,7 +3458,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ]
             },
             "labels": [
               "Response"
@@ -3318,7 +3636,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
             },
             "labels": [
               "Update Status"
@@ -3341,7 +3661,7 @@
           },
           {
             "position": {
-              "x": -20,
+              "x": -40,
               "y": 729
             },
             "size": {
@@ -3458,7 +3778,7 @@
           },
           {
             "position": {
-              "x": 300,
+              "x": 385,
               "y": 609
             },
             "size": {
@@ -3818,7 +4138,7 @@
           },
           {
             "position": {
-              "x": -20,
+              "x": -40,
               "y": 1024
             },
             "size": {
@@ -3837,6 +4157,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -3920,7 +4241,6 @@
               ]
             },
             "id": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
-            "zIndex": 27,
             "data": {
               "type": "tm.Actor",
               "name": "Bendahara",
@@ -3954,6 +4274,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -4037,7 +4358,6 @@
               ]
             },
             "id": "ae7aa136-f079-4899-b460-867036a5d786",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Login\nBendahara",
@@ -4074,6 +4394,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -4157,7 +4478,6 @@
               ]
             },
             "id": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nAPBDes",
@@ -4197,6 +4517,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -4280,7 +4601,6 @@
               ]
             },
             "id": "583c0f2c-35cc-4f5f-9b24-bf887b43435d",
-            "zIndex": 30,
             "data": {
               "type": "tm.Store",
               "name": "Data APBDes",
@@ -4299,7 +4619,7 @@
           },
           {
             "position": {
-              "x": -20,
+              "x": -40,
               "y": 1290
             },
             "size": {
@@ -4318,6 +4638,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 31,
             "ports": {
               "groups": {
                 "top": {
@@ -4401,7 +4722,6 @@
               ]
             },
             "id": "0d05d39b-7ba8-4522-a02e-7111ff3e04f1",
-            "zIndex": 31,
             "data": {
               "type": "tm.Actor",
               "name": "Admin Sistem",
@@ -4435,6 +4755,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 32,
             "ports": {
               "groups": {
                 "top": {
@@ -4518,7 +4839,6 @@
               ]
             },
             "id": "e4d78ece-fc34-406f-9746-e1a0e8d6bdd5",
-            "zIndex": 32,
             "data": {
               "type": "tm.Process",
               "name": "Login\nAdmin Sistem",
@@ -4555,6 +4875,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -4638,7 +4959,6 @@
               ]
             },
             "id": "1d5beaba-1a00-46b7-81bb-66f7e4547a6e",
-            "zIndex": 33,
             "data": {
               "type": "tm.Process",
               "name": "Kelola User\n& Role",
@@ -4654,6 +4974,266 @@
               "threats": []
             },
             "children": []
+          },
+          {
+            "position": {
+              "x": 1329,
+              "y": 130
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Database Server"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "f7352c87-4e65-4aaa-9f5d-c60466fa5954",
+            "zIndex": 34,
+            "data": {
+              "type": "tm.Text",
+              "name": "Database Server",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1477,
+              "y": -140
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Server"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "c0ecbf76-c1c5-4264-b4e0-ddd841a8886d",
+            "zIndex": 35,
+            "data": {
+              "type": "tm.Text",
+              "name": "Web Server",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 36,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "95dd7e85-0bd5-4472-9625-6b0f7973ff1f",
+            "source": {
+              "x": 0,
+              "y": 0
+            },
+            "target": {
+              "x": 20,
+              "y": 220
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 37,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "1d601805-8140-46c6-815d-4132b76bc802",
+            "source": {
+              "x": 760,
+              "y": -260
+            },
+            "target": {
+              "x": 1000,
+              "y": -260
+            },
+            "vertices": [
+              {
+                "x": 860,
+                "y": -160
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": -80,
+              "y": -50
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "5d18ae8c-96b6-48e0-a846-ef4b831f7743",
+            "zIndex": 38,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -55,
+              "y": 215
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "259925b4-521d-489b-857b-09349995c80f",
+            "zIndex": 39,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -65,
+              "y": 590
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "25a996d6-3778-4b33-ad4e-d34cc130d426",
+            "zIndex": 40,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -80,
+              "y": 929
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "d677716a-9a48-4bcc-bc35-fa5732943934",
+            "zIndex": 41,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -55,
+              "y": 1215
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "797fdeeb-e95c-48d5-a0b8-2bbb9e1d97dd",
+            "zIndex": 42,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": -270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "6f343df9-1223-4110-82b7-d2b55678750d",
+            "zIndex": 43,
+            "data": {
+              "type": "tm.Text",
+              "name": "Internet",
+              "hasOpenThreats": false
+            }
           }
         ]
       }
