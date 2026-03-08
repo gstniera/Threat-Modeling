@@ -1,0 +1,26 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "SIPDD - Sistem Informasi Pemerintahan Desa Digital ",
+    "owner": "Tim Pengembang SIPDD ",
+    "description": "Sistem Informasi Pemerintahan Desa Digital adalah sistem berbasis web yang digunakan untuk mendukung layanan administrasi desa, pengelolaan data penduduk, pengajuan surat-menyurat, pengelolaan anggaran desa, serta publikasi informasi desa secara transparan.\nFitur utama:\n1. Pengelolaan data penduduk\n2. Pengajuan dan penerbitan surat\n3. Pengelolaan APBDes\n4. Pengaduan masyarakat\n5. Publikasi berita & informasi desa",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
