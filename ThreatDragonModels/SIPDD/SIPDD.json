@@ -3557,11 +3557,24 @@
                   "new": false,
                   "number": 21,
                   "score": "7"
+                },
+                {
+                  "id": "714d42e0-0da7-4033-bc75-589d03ab7a81",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "SQL Injection pada endpoint kelola data penduduk untuk mengubah, menghapus, atau menambahkan data kependudukan secara tidak sah",
+                  "mitigation": "Parameterized queries wajib di semua endpoint, WAF (Web Application Firewall), penetration testing berkala, SAST/DAST pada pipeline CI/CD",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 39,
+                  "score": "9"
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
@@ -3772,12 +3785,25 @@
                   "new": false,
                   "number": 36,
                   "score": "10"
+                },
+                {
+                  "id": "85b23418-8513-410e-9bc8-8feb0cb4acde",
+                  "title": "Eksploitasi XSS ",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Mencuri session token Admin Desa, lalu menggunakan token tersebut untuk mengakses data kependudukan secara massal",
+                  "mitigation": "CSP (Content Security Policy), HttpOnly & Secure cookie, session binding ke IP/User-Agent, anomaly detection pada pola akses data",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": "9"
                 }
               ],
               "threatFrequency": {
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 2,
+                "informationDisclosure": 3,
                 "denialOfService": 0
               }
             }
@@ -5697,6 +5723,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Dosen dan Asisten Dosen",
-    "threatTop": 37
+    "threatTop": 39
   }
 }
