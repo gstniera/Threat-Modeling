@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 40,
+              "x": -50,
               "y": 40
             },
             "size": {
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "054be828-c1e5-4439-abd5-1bfbcfdc2ba4",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Warga",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,131 +239,10 @@
               ]
             },
             "id": "b31ae1cd-850c-45de-939e-a4827e9f3c2b",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Login &\nAutentikasi",
               "description": "Validasi username/password, rate limiting, bcrypt, generate session token (PR-02, SA-02, SA-06)",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1127,
-              "y": 324
-            },
-            "size": {
-              "width": 80,
-              "height": 80
-            },
-            "attrs": {
-              "text": {
-                "text": "Registrasi\nAkun"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "aee8ba8c-9d64-4bdd-833a-d20982653395"
-                },
-                {
-                  "group": "right",
-                  "id": "0c1ebd3a-31ce-473d-a4cc-9d3f8db671ec"
-                },
-                {
-                  "group": "bottom",
-                  "id": "6e6de116-ecdd-4d96-a462-382d01ed8908"
-                },
-                {
-                  "group": "left",
-                  "id": "8600cc63-f890-4717-8d09-e283960bd350"
-                }
-              ]
-            },
-            "id": "ef7f1802-3e6a-4a63-bf88-0b8f4d1b0bc8",
-            "zIndex": 3,
-            "data": {
-              "type": "tm.Process",
-              "name": "Registrasi\nAkun",
-              "description": "Pendaftaran akun baru warga sebelum dapat akses layanan (PR-01)",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -395,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +359,6 @@
               ]
             },
             "id": "3af30690-f38d-4df0-8c9e-8bdfc716ab1c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Pengajuan\nSurat",
@@ -496,8 +376,8 @@
           },
           {
             "position": {
-              "x": 1370,
-              "y": 190
+              "x": 481,
+              "y": 164
             },
             "size": {
               "width": 90,
@@ -515,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -598,7 +479,6 @@
               ]
             },
             "id": "51d491b5-0d74-4152-973a-3ea4cca9a75c",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Lihat Status\nSurat",
@@ -616,8 +496,8 @@
           },
           {
             "position": {
-              "x": 1530,
-              "y": 110
+              "x": 205,
+              "y": 294
             },
             "size": {
               "width": 90,
@@ -635,6 +515,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -718,7 +599,6 @@
               ]
             },
             "id": "6335c2a9-2035-48b0-bc32-3fbb411fb414",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Pengajuan\nPengaduan",
@@ -736,8 +616,8 @@
           },
           {
             "position": {
-              "x": 1440,
-              "y": -50
+              "x": 51.25,
+              "y": 264
             },
             "size": {
               "width": 90,
@@ -755,6 +635,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -838,7 +719,6 @@
               ]
             },
             "id": "5918824c-8f56-499d-8030-7113fc1cbbd8",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Lihat Berita\nDesa",
@@ -875,6 +755,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -958,7 +839,6 @@
               ]
             },
             "id": "7907b373-fda9-4dbe-ade4-33921df01796",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Input\nValidation",
@@ -995,6 +875,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1078,7 +959,6 @@
               ]
             },
             "id": "68f6d2fa-9420-49af-9d2e-ecec8691afd3",
-            "zIndex": 9,
             "data": {
               "type": "tm.Process",
               "name": "Rate Limiting\n& Lockout",
@@ -1115,6 +995,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1198,7 +1079,6 @@
               ]
             },
             "id": "d62d2918-3f8e-43cf-80ed-b5eef6543528",
-            "zIndex": 10,
             "data": {
               "type": "tm.Process",
               "name": "HTTPS/TLS\nLayer",
@@ -1659,7 +1539,7 @@
             "labels": [
               "Insert Surat"
             ],
-            "id": "332c2f47-7a79-4d38-9ee3-bb674f90211a",
+            "id": "6c0f2c4a-284c-4acd-b0f4-05cac04d6a0e",
             "source": {
               "cell": "3af30690-f38d-4df0-8c9e-8bdfc716ab1c",
               "port": "6e6de116-ecdd-4d96-a462-382d01ed8908"
@@ -1668,106 +1548,528 @@
               "cell": "f31e586e-75b7-4416-b4f3-0163bb52aada",
               "port": "5a4366ef-c099-459f-b525-af5ab8f6fdb3"
             },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log Pengajuan",
+              "description": "userId+suratId",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Log Pengajuan"
+            ],
+            "id": "24dab8a3-a01a-435d-a982-9698c7ef2a5b",
+            "source": {
+              "cell": "3af30690-f38d-4df0-8c9e-8bdfc716ab1c",
+              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+            },
+            "target": {
+              "cell": "d20ac94f-2539-4ef1-931b-5ff9918f86a1",
+              "port": "5a4366ef-c099-459f-b525-af5ab8f6fdb3"
+            },
             "vertices": [
               {
-                "x": 720,
-                "y": 260
+                "x": 740,
+                "y": 120
               },
               {
-                "x": 780,
-                "y": 310
+                "x": 870,
+                "y": 200
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Status"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "2a3243f8-53db-4b43-9ab1-fce74f7f051f",
+            "source": {
+              "cell": "054be828-c1e5-4439-abd5-1bfbcfdc2ba4",
+              "port": "ad83a5c6-8c43-4123-9aff-1d6b8930ad03"
+            },
+            "target": {
+              "cell": "51d491b5-0d74-4152-973a-3ea4cca9a75c",
+              "port": "8600cc63-f890-4717-8d09-e283960bd350"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Isi Pengaduan",
+              "description": "Sanitize XSS",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Isi Pengaduan"
+            ],
+            "id": "02f4dc0f-0885-45f8-9109-24e0e0956160",
+            "source": {
+              "cell": "054be828-c1e5-4439-abd5-1bfbcfdc2ba4",
+              "port": "7fa94a89-fa71-4ba9-8424-4307f162ef6a"
+            },
+            "target": {
+              "cell": "7907b373-fda9-4dbe-ade4-33921df01796",
+              "port": "6e6de116-ecdd-4d96-a462-382d01ed8908"
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query Status by userId",
+              "description": "ownership check",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query Status by userId"
+            ],
+            "id": "2b01fd5f-7e41-42aa-bcba-7f84db4476bf",
+            "source": {
+              "cell": "51d491b5-0d74-4152-973a-3ea4cca9a75c",
+              "port": "6e6de116-ecdd-4d96-a462-382d01ed8908"
+            },
+            "target": {
+              "cell": "f31e586e-75b7-4416-b4f3-0163bb52aada",
+              "port": "5a4366ef-c099-459f-b525-af5ab8f6fdb3"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sanitized  Pengaduan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sanitized  Pengaduan"
+            ],
+            "id": "7d9495d5-e490-4bf5-b03c-57919ae82f16",
+            "source": {
+              "cell": "7907b373-fda9-4dbe-ade4-33921df01796",
+              "port": "0c1ebd3a-31ce-473d-a4cc-9d3f8db671ec"
+            },
+            "target": {
+              "cell": "6335c2a9-2035-48b0-bc32-3fbb411fb414",
+              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+            },
+            "vertices": [
+              {
+                "x": 425,
+                "y": 170
+              },
+              {
+                "x": 360,
+                "y": 250
+              },
+              {
+                "x": 280,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Insert Pengaduan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Insert Pengaduan"
+            ],
+            "id": "d73627f4-ed59-4260-beb0-4b71bf410bd6",
+            "source": {
+              "cell": "6335c2a9-2035-48b0-bc32-3fbb411fb414",
+              "port": "0c1ebd3a-31ce-473d-a4cc-9d3f8db671ec"
+            },
+            "target": {
+              "cell": "0b6673fa-2dce-40c4-b0f4-5058bd416829",
+              "port": "5a4366ef-c099-459f-b525-af5ab8f6fdb3"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Berita",
+              "description": "Public Access",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Berita"
+            ],
+            "id": "e1e81488-ea24-489f-8436-13d5c55cb981",
+            "source": {
+              "cell": "054be828-c1e5-4439-abd5-1bfbcfdc2ba4",
+              "port": "7fa94a89-fa71-4ba9-8424-4307f162ef6a"
+            },
+            "target": {
+              "cell": "5918824c-8f56-499d-8030-7113fc1cbbd8",
+              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query Berita",
+              "description": "Read-only",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query Berita"
+            ],
+            "id": "14c38227-8854-4b6e-bead-3663982cfdc6",
+            "source": {
+              "cell": "5918824c-8f56-499d-8030-7113fc1cbbd8",
+              "port": "0c1ebd3a-31ce-473d-a4cc-9d3f8db671ec"
+            },
+            "target": {
+              "cell": "d6304479-7365-4cdc-934b-d67f552c2bef",
+              "port": "27dbbb1e-1f9d-48cc-ab88-6e4a6b45490c"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Malicious Request",
+              "description": "Blocked by TLS/Rate",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Malicious Request"
+            ],
+            "id": "a1188cf4-f04a-4e0b-b2d2-2a5f5414d364",
+            "source": {
+              "cell": "6ccde4d8-3fef-4283-9f86-2ad6e1cee67d",
+              "port": "d6c3ab52-1e12-486b-b5f4-3f57737a82e8"
+            },
+            "target": {
+              "cell": "d62d2918-3f8e-43cf-80ed-b5eef6543528",
+              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": -280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Brute Force Attempt",
+              "description": "Blocked by Rate Limiting P-08",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Brute Force Attempt"
+            ],
+            "id": "2ace80a3-9027-4f65-beec-64babeb72ad8",
+            "source": {
+              "cell": "6ccde4d8-3fef-4283-9f86-2ad6e1cee67d",
+              "port": "350f7d8f-8d97-4323-acad-d99cb048144b"
+            },
+            "target": {
+              "cell": "b31ae1cd-850c-45de-939e-a4827e9f3c2b",
+              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": -300
+              },
+              {
+                "x": 680,
+                "y": -110
+              }
+            ]
           },
           {
             "position": {
-              "x": 402,
-              "y": 324
+              "x": 175,
+              "y": 474
             },
             "size": {
               "width": 120,
@@ -1788,6 +2090,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1871,7 +2174,6 @@
               ]
             },
             "id": "d6304479-7365-4cdc-934b-d67f552c2bef",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Database Utama ",
@@ -1912,6 +2214,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1995,7 +2298,6 @@
               ]
             },
             "id": "cdbf6514-05b3-4f5b-92fb-4e335b9e3b35",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Session",
@@ -2036,6 +2338,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2119,7 +2422,6 @@
               ]
             },
             "id": "d20ac94f-2539-4ef1-931b-5ff9918f86a1",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Audit Log",
@@ -2160,6 +2462,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2243,7 +2546,6 @@
               ]
             },
             "id": "8880e668-5043-400f-b5fa-eb42ac44ea91",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Password Hash",
@@ -2263,7 +2565,7 @@
           {
             "position": {
               "x": 880,
-              "y": 290
+              "y": 264
             },
             "size": {
               "width": 120,
@@ -2284,6 +2586,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2367,7 +2670,6 @@
               ]
             },
             "id": "f31e586e-75b7-4416-b4f3-0163bb52aada",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "Data Surat",
@@ -2386,8 +2688,8 @@
           },
           {
             "position": {
-              "x": 522,
-              "y": 310
+              "x": 661,
+              "y": 394
             },
             "size": {
               "width": 120,
@@ -2408,6 +2710,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2491,7 +2794,6 @@
               ]
             },
             "id": "0b6673fa-2dce-40c4-b0f4-5058bd416829",
-            "zIndex": 16,
             "data": {
               "type": "tm.Store",
               "name": "Data Pengaduan",
@@ -2510,8 +2812,8 @@
           },
           {
             "position": {
-              "x": 60,
-              "y": 310
+              "x": 369,
+              "y": -363
             },
             "size": {
               "width": 112.5,
@@ -2595,23 +2897,23 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "1c2dec80-9f3c-4c4e-87a4-37f656eee5cc"
+                  "id": "efb54bb1-e649-406d-8fc9-a885af5d8302"
                 },
                 {
                   "group": "right",
-                  "id": "ad83a5c6-8c43-4123-9aff-1d6b8930ad03"
+                  "id": "350f7d8f-8d97-4323-acad-d99cb048144b"
                 },
                 {
                   "group": "bottom",
-                  "id": "7fa94a89-fa71-4ba9-8424-4307f162ef6a"
+                  "id": "2226352e-bc22-4076-ab91-9f166285b5b6"
                 },
                 {
                   "group": "left",
-                  "id": "20d42a2f-28d6-4486-a30f-65e3b9e81612"
+                  "id": "d6c3ab52-1e12-486b-b5f4-3f57737a82e8"
                 }
               ]
             },
-            "id": "c3bee770-30fc-4afc-bfd2-822ececdc08f",
+            "id": "6ccde4d8-3fef-4283-9f86-2ad6e1cee67d",
             "zIndex": 17,
             "data": {
               "type": "tm.Actor",
