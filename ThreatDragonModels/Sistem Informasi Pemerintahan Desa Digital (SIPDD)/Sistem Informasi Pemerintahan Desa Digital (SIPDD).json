@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -860,
-              "y": -430
+              "x": -837.5,
+              "y": -450
             },
             "size": {
               "width": 1640,
@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "98e54360-c8a7-4937-b5d4-424812059680",
             "zIndex": -1,
+            "id": "98e54360-c8a7-4937-b5d4-424812059680",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -73,13 +73,6 @@
                 "ed1edb05-a963-402f-a3fe-bfc29fe3c3a3",
                 "a3e85b1a-2389-4b8c-a014-69b24c0d837b"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -93,8 +86,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "10ee3050-8c87-46e9-9ec7-210d6681267d",
             "zIndex": -1,
+            "id": "10ee3050-8c87-46e9-9ec7-210d6681267d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -108,6 +101,8 @@
                 "7ead546f-86d1-4a16-b811-99380fe3d4e0",
                 "74d0d2a2-c5b2-4a3a-9175-80b6132a7d7a",
                 "7a4c52c2-b2e7-45c3-972c-0bc5d479dad7",
+                "73a54577-2b2a-4660-b690-91dfcaec6b91",
+                "67e6e56b-43bd-4539-a924-7aedad31a3d4",
                 "1003e97e-295b-4518-b487-efadd2db09c7",
                 "d773591d-547e-48c1-8081-414c9f94d50d",
                 "a28d1e45-e41e-4463-8de2-dd77522c5b62"
@@ -1207,7 +1202,7 @@
           {
             "position": {
               "x": 456.99999999999795,
-              "y": -50
+              "y": -170
             },
             "size": {
               "width": 120,
@@ -1715,8 +1710,8 @@
             },
             "vertices": [
               {
-                "x": 230,
-                "y": 100
+                "x": 80,
+                "y": 80
               }
             ]
           },
@@ -2437,68 +2432,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Catat log login (berhasil/gagal) \n+ IP + timestamp",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
-            },
-            "labels": [
-              "Catat log login (berhasil/gagal) \n+ IP + timestamp"
-            ],
-            "id": "1003e97e-295b-4518-b487-efadd2db09c7",
-            "source": {
-              "cell": "fbdf2da1-55b7-4868-8461-b11d07dee8a5",
-              "port": "c1d4c6c4-4170-45b1-90cf-5d171df71312"
-            },
-            "target": {
-              "cell": "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
-              "port": "ae1b8b81-fcec-45c9-872e-e9e233f037a4"
-            },
-            "vertices": [
-              {
-                "x": -360,
-                "y": -410
-              },
-              {
-                "x": 260,
-                "y": -390
-              },
-              {
-                "x": 490,
-                "y": -280
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -2647,6 +2580,170 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "73a54577-2b2a-4660-b690-91dfcaec6b91",
+            "source": {
+              "cell": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
+              "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+            },
+            "target": {
+              "cell": "85808987-3555-4e1a-8ce1-2d28a8a23fc3",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verifikasi kredensial & \nkonfirmasi role Admin",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              "Verifikasi kredensial & \nkonfirmasi role Admin"
+            ],
+            "id": "67e6e56b-43bd-4539-a924-7aedad31a3d4",
+            "source": {
+              "cell": "85808987-3555-4e1a-8ce1-2d28a8a23fc3",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "target": {
+              "cell": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
+              "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Catat log login (berhasil/gagal) \n+ IP + timestamp",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              "Catat log login (berhasil/gagal) \n+ IP + timestamp"
+            ],
+            "id": "1003e97e-295b-4518-b487-efadd2db09c7",
+            "source": {
+              "cell": "fbdf2da1-55b7-4868-8461-b11d07dee8a5",
+              "port": "c1d4c6c4-4170-45b1-90cf-5d171df71312"
+            },
+            "target": {
+              "cell": "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
+              "port": "58107c3d-bbf0-47cb-83bf-42a002b8a8c4"
+            },
+            "vertices": [
+              {
+                "x": -360,
+                "y": -410
+              },
+              {
+                "x": 260,
+                "y": -390
+              },
+              {
+                "x": 730,
+                "y": -320
+              },
+              {
+                "x": 710,
+                "y": -120
+              }
+            ]
+          },
+          {
             "position": {
               "x": 456.99999999999795,
               "y": 210
@@ -2772,8 +2869,8 @@
           },
           {
             "position": {
-              "x": 456.25,
-              "y": -180
+              "x": 456.99999999999795,
+              "y": -50
             },
             "size": {
               "width": 120,
@@ -3145,8 +3242,8 @@
           },
           {
             "position": {
-              "x": 657,
-              "y": -240
+              "x": 631.999999999998,
+              "y": -270
             },
             "size": {
               "width": 112.5,
@@ -3183,13 +3280,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 23,
             "id": "fd350cbb-36c4-43ec-9456-fd49d652c177",
             "data": {
               "type": "tm.Text",
               "name": "Internet\n(Untrusted)",
               "hasOpenThreats": false
-            },
-            "zIndex": 23
+            }
           },
           {
             "position": {
@@ -3207,8 +3304,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "859eaa6a-ce0a-44fa-a764-6bba2dfd3d47",
             "zIndex": 24,
+            "id": "859eaa6a-ce0a-44fa-a764-6bba2dfd3d47",
             "data": {
               "type": "tm.Text",
               "name": "Web Server\n(Trusted)",
@@ -3217,7 +3314,7 @@
           },
           {
             "position": {
-              "x": -590,
+              "x": -520,
               "y": 310
             },
             "size": {
@@ -3236,6 +3333,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3319,7 +3417,6 @@
               ]
             },
             "id": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Login Admin",
@@ -3337,8 +3434,8 @@
           },
           {
             "position": {
-              "x": -510,
-              "y": 440
+              "x": -600,
+              "y": 580
             },
             "size": {
               "width": 100,
@@ -3356,6 +3453,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -3439,7 +3537,6 @@
               ]
             },
             "id": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Verifikasi\nSurat",
@@ -3457,8 +3554,8 @@
           },
           {
             "position": {
-              "x": -310,
-              "y": 440
+              "x": -480,
+              "y": 580
             },
             "size": {
               "width": 90,
@@ -3476,6 +3573,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -3559,7 +3657,6 @@
               ]
             },
             "id": "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
-            "zIndex": 27,
             "data": {
               "type": "tm.Process",
               "name": "Kelola Data\nPenduduk",
@@ -3577,8 +3674,8 @@
           },
           {
             "position": {
-              "x": -115.00000000000003,
-              "y": 455
+              "x": -310,
+              "y": 670
             },
             "size": {
               "width": 120,
@@ -3596,6 +3693,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -3679,7 +3777,6 @@
               ]
             },
             "id": "e9d331b4-92ba-4816-8d9b-72c20089420f",
-            "zIndex": 28,
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nPengaduan",
@@ -3697,8 +3794,8 @@
           },
           {
             "position": {
-              "x": 112.99999999999994,
-              "y": 455
+              "x": -127.00000000000006,
+              "y": 680
             },
             "size": {
               "width": 100,
@@ -3716,6 +3813,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -3799,7 +3897,6 @@
               ]
             },
             "id": "ed1edb05-a963-402f-a3fe-bfc29fe3c3a3",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nBerita",
@@ -3839,6 +3936,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -3922,7 +4020,6 @@
               ]
             },
             "id": "a3e85b1a-2389-4b8c-a014-69b24c0d837b",
-            "zIndex": 30,
             "data": {
               "type": "tm.Store",
               "name": "Data Penduduk",
