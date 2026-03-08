@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": 251.5,
-              "y": -180
+              "x": 450,
+              "y": -447
             },
             "size": {
               "width": 112.5,
@@ -2247,8 +2247,8 @@
             },
             "vertices": [
               {
-                "x": -10,
-                "y": -55
+                "x": -30,
+                "y": -80
               }
             ]
           },
@@ -2460,46 +2460,6 @@
               {
                 "x": -850,
                 "y": -160
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "e8b30b49-79cc-42db-864a-c01329a42744",
-                "9044ede0-b5b5-4db6-8229-4c18af324da8",
-                "e70f9593-5ed1-4a68-b1bb-2709cb385ff8"
-              ],
-              "containedElements": [
-                "64840d94-2b46-48da-809a-b5f00e834edc"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72",
-            "source": {
-              "x": 370,
-              "y": -260
-            },
-            "target": {
-              "x": 360,
-              "y": -40
-            },
-            "vertices": [
-              {
-                "x": 180,
-                "y": -130
               }
             ]
           },
@@ -2952,7 +2912,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Di luar sistem\n(Internet)"
+                "text": "Internet\n(Untrusted)"
               }
             },
             "visible": true,
@@ -2961,14 +2921,14 @@
             "zIndex": 16,
             "data": {
               "type": "tm.Text",
-              "name": "Di luar sistem\n(Internet)",
+              "name": "Internet\n(Untrusted)",
               "hasOpenThreats": false
             }
           },
           {
             "position": {
-              "x": 320,
-              "y": -315
+              "x": 380,
+              "y": -550
             },
             "size": {
               "width": 112.5,
@@ -2976,7 +2936,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Di luar sistem\n(Internet)"
+                "text": "Internet\n(Untrusted)"
               }
             },
             "visible": true,
@@ -2985,9 +2945,49 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Text",
-              "name": "Di luar sistem\n(Internet)",
+              "name": "Internet\n(Untrusted)",
               "hasOpenThreats": false
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e8b30b49-79cc-42db-864a-c01329a42744",
+                "9044ede0-b5b5-4db6-8229-4c18af324da8",
+                "e70f9593-5ed1-4a68-b1bb-2709cb385ff8"
+              ],
+              "containedElements": [
+                "64840d94-2b46-48da-809a-b5f00e834edc"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "bdae6ba6-835d-46a9-9a1b-d69b5b7f2b72",
+            "source": {
+              "x": 420,
+              "y": -490
+            },
+            "target": {
+              "x": 570,
+              "y": -270
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": -320
+              }
+            ]
           }
         ]
       }
