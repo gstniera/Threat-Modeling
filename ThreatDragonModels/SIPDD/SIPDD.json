@@ -20,7 +20,7 @@
           {
             "position": {
               "x": -20,
-              "y": 80
+              "y": 90
             },
             "size": {
               "width": 112.5,
@@ -139,7 +139,7 @@
           },
           {
             "position": {
-              "x": 475,
+              "x": 430,
               "y": -100
             },
             "size": {
@@ -304,8 +304,8 @@
             },
             "vertices": [
               {
-                "x": 140,
-                "y": -30
+                "x": 100,
+                "y": -20
               }
             ]
           },
@@ -408,8 +408,8 @@
             },
             "vertices": [
               {
-                "x": 1030,
-                "y": -20
+                "x": 1000,
+                "y": 0
               }
             ]
           },
@@ -460,8 +460,8 @@
             },
             "vertices": [
               {
-                "x": 620,
-                "y": 100
+                "x": 800,
+                "y": 120
               }
             ]
           },
@@ -663,8 +663,8 @@
             },
             "vertices": [
               {
-                "x": 720,
-                "y": 300
+                "x": 730,
+                "y": 350
               }
             ]
           },
@@ -768,7 +768,7 @@
             "vertices": [
               {
                 "x": 820,
-                "y": 500
+                "y": 535
               }
             ]
           },
@@ -819,12 +819,24 @@
             },
             "vertices": [
               {
-                "x": 690,
+                "x": 620,
                 "y": 160
               },
               {
-                "x": 920,
-                "y": 180
+                "x": 680,
+                "y": 270
+              },
+              {
+                "x": 790,
+                "y": 230
+              },
+              {
+                "x": 910,
+                "y": 310
+              },
+              {
+                "x": 1120,
+                "y": 310
               }
             ]
           },
@@ -875,20 +887,16 @@
             },
             "vertices": [
               {
-                "x": 1060,
-                "y": 500
+                "x": 1100,
+                "y": 610
               },
               {
-                "x": 940,
-                "y": 500
+                "x": 900,
+                "y": 620
               },
               {
-                "x": 840,
-                "y": 570
-              },
-              {
-                "x": 660,
-                "y": 590
+                "x": 690,
+                "y": 620
               }
             ]
           },
@@ -1085,12 +1093,12 @@
             },
             "vertices": [
               {
-                "x": 940,
-                "y": 690
+                "x": 970,
+                "y": 730
               },
               {
-                "x": 940,
-                "y": 400
+                "x": 1030,
+                "y": 500
               }
             ]
           },
@@ -1141,12 +1149,12 @@
             },
             "vertices": [
               {
-                "x": 1020,
-                "y": 360
+                "x": 1050,
+                "y": 460
               },
               {
-                "x": 720,
-                "y": 470
+                "x": 740,
+                "y": 500
               }
             ]
           },
@@ -1453,9 +1461,108 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "5e71c078-c67a-4e1e-a9ef-89d211f3137f",
+            "source": {
+              "cell": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
+              "port": "91817134-4201-41bf-90e6-cdb5d9a30d6b"
+            },
+            "target": {
+              "cell": "ae7aa136-f079-4899-b460-867036a5d786",
+              "port": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 1010
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response\n(session)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Response\n(session)"
+            ],
+            "id": "d925999f-7e35-43f4-9182-414a72d74ce5",
+            "source": {
+              "cell": "ae7aa136-f079-4899-b460-867036a5d786",
+              "port": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
+            },
+            "target": {
+              "cell": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
+              "port": "91817134-4201-41bf-90e6-cdb5d9a30d6b"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 1060,
-              "y": 90
+              "x": 1080,
+              "y": 215
             },
             "size": {
               "width": 120,
@@ -1578,8 +1685,8 @@
           },
           {
             "position": {
-              "x": 370,
-              "y": 50
+              "x": 345,
+              "y": 60
             },
             "size": {
               "width": 110,
@@ -1698,8 +1805,8 @@
           },
           {
             "position": {
-              "x": 1060,
-              "y": 250
+              "x": 1090,
+              "y": 370
             },
             "size": {
               "width": 120,
@@ -2112,7 +2219,7 @@
           },
           {
             "position": {
-              "x": 500,
+              "x": 475,
               "y": 190
             },
             "size": {
@@ -2524,8 +2631,8 @@
           },
           {
             "position": {
-              "x": 1060,
-              "y": 400
+              "x": 1090,
+              "y": 505
             },
             "size": {
               "width": 120,
@@ -2694,7 +2801,7 @@
             "vertices": [
               {
                 "x": 750,
-                "y": 350
+                "y": 405
               }
             ]
           },
@@ -2719,6 +2826,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 23,
             "ports": {
               "groups": {
                 "top": {
@@ -2802,7 +2910,6 @@
               ]
             },
             "id": "96c1a15a-4b77-4f99-ae3b-7780763630d0",
-            "zIndex": 23,
             "data": {
               "type": "tm.Actor",
               "name": "Kepala Desa",
@@ -2836,6 +2943,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -2919,7 +3027,6 @@
               ]
             },
             "id": "08eae217-ea56-4f04-a075-dac2eb67de8a",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "Login\nKepala Desa",
@@ -2956,6 +3063,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -3039,7 +3147,6 @@
               ]
             },
             "id": "3a03bf5d-dfc3-45a2-ba17-1d86c175a093",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Persetujuan\nSurat",
@@ -3057,8 +3164,8 @@
           },
           {
             "position": {
-              "x": 280,
-              "y": 910
+              "x": 150,
+              "y": 860
             },
             "size": {
               "width": 130,
@@ -3076,6 +3183,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -3159,10 +3267,366 @@
               ]
             },
             "id": "4456c88f-737c-47e2-8283-85c7cf0d1e7e",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "PKI Service",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -20,
+              "y": 1024
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Bendahara"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "097b0d71-ed96-44a5-887f-0e0fa878fcdd"
+                },
+                {
+                  "group": "right",
+                  "id": "91817134-4201-41bf-90e6-cdb5d9a30d6b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f9b8bfd8-3396-4838-bc03-7a2086af7be3"
+                },
+                {
+                  "group": "left",
+                  "id": "d98fe841-c9b5-4c1b-a0c9-2b8a8ad77af7"
+                }
+              ]
+            },
+            "id": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Bendahara",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 345,
+              "y": 989
+            },
+            "size": {
+              "width": 110,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Login\nBendahara"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7e47eb08-7cc7-48ce-bc9d-cc109d371c83"
+                },
+                {
+                  "group": "right",
+                  "id": "868da6f2-2744-4043-9134-30c9f11024fa"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f8c91d3e-f2bd-468a-afa2-3b6d576bb3c0"
+                },
+                {
+                  "group": "left",
+                  "id": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
+                }
+              ]
+            },
+            "id": "ae7aa136-f079-4899-b460-867036a5d786",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Process",
+              "name": "Login\nBendahara",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 630,
+              "y": 1070
+            },
+            "size": {
+              "width": 160,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Kelola\nAPBDes"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7e47eb08-7cc7-48ce-bc9d-cc109d371c83"
+                },
+                {
+                  "group": "right",
+                  "id": "868da6f2-2744-4043-9134-30c9f11024fa"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f8c91d3e-f2bd-468a-afa2-3b6d576bb3c0"
+                },
+                {
+                  "group": "left",
+                  "id": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
+                }
+              ]
+            },
+            "id": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Process",
+              "name": "Kelola\nAPBDes",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
