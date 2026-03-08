@@ -3759,12 +3759,25 @@
                   "new": false,
                   "number": 24,
                   "score": "9"
+                },
+                {
+                  "id": "95c151f0-d510-4b57-95bb-44f62d24a99f",
+                  "title": "Menyalahgunakan Akses",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Menyalahgunakan akses penuh DB untuk ekstrak massal data kependudukan, password hash, dan APBDes",
+                  "mitigation": "Least privilege dimana Admin Sistem tidak akses data bisnis langsung, akses DB via stored procedure, monitoring semua query",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": "10"
                 }
               ],
               "threatFrequency": {
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0
               }
             }
@@ -5032,7 +5045,38 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "74d11a68-3953-4c82-8496-5402c2a8660b",
+                  "title": "Spear-Phishing",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Spear-phishing / credential stuffing untuk ambil alih akun Admin Sistem yaitu akses tertinggi di sistem",
+                  "mitigation": "MFA wajib, login hanya dari IP whitelist, alert real-time setiap login Admin Sistem",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": "10"
+                },
+                {
+                  "id": "3fea8e68-be47-49a7-96eb-39ea1c643572",
+                  "title": "Menyangkal Aksi Kritis",
+                  "status": "Mitigated",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Admin Sistem menyangkal aksi kritis (ubah role, akses DB) karena log tidak terikat identitas secara kuat",
+                  "mitigation": "Setiap aksi Admin Sistem diikat userId+MFA-verified+IP+timestamp di Audit Log WORM",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -5169,8 +5213,8 @@
                 "text": "Kelola User\n& Role"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5267,12 +5311,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "660adf57-80ab-4b42-b110-04363d5aa781",
+                  "title": "Mengubah Role",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Elevation of privilege",
+                  "description": "Ubah role akun lain menjadi Admin Sistem, gunakan akun itu untuk aktivitas tidak sah tanpa deteksi",
+                  "mitigation": "Perubahan role Admin Sistem butuh persetujuan 2 admin, notifikasi ke semua Admin Sistem aktif",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": "9"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
             },
             "children": []
           },
@@ -5631,6 +5697,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Dosen dan Asisten Dosen",
-    "threatTop": 33
+    "threatTop": 37
   }
 }
