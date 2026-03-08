@@ -2703,7 +2703,12 @@
               "cell": "d20ac94f-2539-4ef1-931b-5ff9918f86a1",
               "port": "cd082e01-9385-4f67-a757-8443b0775edd"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 1050,
+                "y": 600
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -3120,6 +3125,197 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "HTTPS POST \n/login",
+              "description": "Data: {username, password}",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "HTTPS POST \n/login"
+            ],
+            "id": "beed3ef8-3b94-49ac-9154-21a006bf5df1",
+            "source": {
+              "cell": "04c76ecf-37b0-4e8a-bd37-ffa8e8b5e9af",
+              "port": "7db60cab-0c9b-4f2e-a9cf-6fa9c6ce28cc"
+            },
+            "target": {
+              "cell": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Create \nSession Token",
+              "description": "Token berisi role=KepalaDesa ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Create \nSession Token"
+            ],
+            "id": "d06d51b0-42aa-458f-b282-3d238e5e4c57",
+            "source": {
+              "cell": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
+              "port": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+            },
+            "target": {
+              "cell": "cdbf6514-05b3-4f5b-92fb-4e335b9e3b35",
+              "port": "cd082e01-9385-4f67-a757-8443b0775edd"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 999
+              },
+              {
+                "x": 730,
+                "y": 840
+              },
+              {
+                "x": 790,
+                "y": 750
+              },
+              {
+                "x": 1000,
+                "y": 610
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log Login Event",
+              "description": "{userId, timestamp_server, IP, user_agent, status:sukses/gagal} ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Log Login Event"
+            ],
+            "id": "0cf6c9b4-685d-4eb4-98e9-21323ebff85b",
+            "source": {
+              "cell": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
+              "port": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+            },
+            "target": {
+              "cell": "d20ac94f-2539-4ef1-931b-5ff9918f86a1",
+              "port": "4ff917bb-322a-479d-b636-f00afd9d9f8c"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 999
+              },
+              {
+                "x": 1500,
+                "y": 920
+              },
+              {
+                "x": 1720,
+                "y": 300
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 295,
               "y": 400
@@ -3245,7 +3441,7 @@
           },
           {
             "position": {
-              "x": 1035,
+              "x": 1280,
               "y": -10
             },
             "size": {
@@ -3369,7 +3565,7 @@
           },
           {
             "position": {
-              "x": 1405,
+              "x": 1535,
               "y": 115
             },
             "size": {
@@ -3381,11 +3577,13 @@
                 "text": "Audit Log"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3482,13 +3680,46 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "aa6300a1-ec71-4d07-9ff3-9ac03d954291",
+                  "title": "Modifikasi Data Penduduk & Audit Log secara Ilegal",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Admin mengubah data NIK/KK/alamat warga atau menghapus entri penduduk secara sepihak tanpa justifikasi. Lalu mencoba menghapus/edit audit log agar tidak terlacak",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": "9"
+                },
+                {
+                  "id": "990371cd-d919-4605-87d1-5437a965a7d7",
+                  "title": "Admin Sangkal Perubahan Data yang Sudah Dilakukan",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Admin melakukan perubahan data penduduk kemudian menyangkal sudah melakukannya, dengan alasan tidak ada bukti atau mencoba memodifikasi catatan log untuk menghapus jejaknya",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -3811,8 +4042,8 @@
           },
           {
             "position": {
-              "x": 711,
-              "y": 374
+              "x": 1040,
+              "y": 640
             },
             "size": {
               "width": 120,
@@ -4538,8 +4769,8 @@
                 "text": "Kelola\nPengaduan"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4636,12 +4867,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "9d591f6f-50f5-4e72-959e-fb2a3aaf8368",
+                  "title": "Admin Sangkal Perubahan Data yang Sudah Dilakukan",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Admin melakukan perubahan data penduduk kemudian menyangkal sudah melakukannya, dengan alasan tidak ada bukti atau mencoba memodifikasi catatan log untuk menghapus jejaknya.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": "7"
+                },
+                {
+                  "id": "71b341bf-2ca6-431d-8bfd-b30b1754a9ff",
+                  "title": "Ekstrak & Jual Data Kependudukan",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Admin menggunakan akses legitimnya untuk mengekspor data kependudukan secara massal (misal: Export All ke CSV) lalu menjualnya ke pihak ketiga tanpa sepengetahuan sistem",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": "9"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -4778,8 +5044,8 @@
                 "text": "Role &\nOtorisasi\nCheck"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4876,12 +5142,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "7f60835e-309e-4cab-a7c7-8908122adcaa",
+                  "title": "Privilege Escalation Admin Desa Eskalasi ke Level Admin Sistem",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Admin Desa menyalahgunakan akses proses 'Kelola User' (yang seharusnya hanya untuk Admin Sistem) untuk mengubah role-nya sendiri menjadi Admin Sistem, lalu mendapatkan akses penuh ke seluruh konfigurasi sistem.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -5139,8 +5427,8 @@
                 "text": "Kelola Data\nPenduduk"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -5237,11 +5525,1377 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "fd549563-ed79-496f-a95c-7729c18aa619",
+                  "title": "Modifikasi Data Penduduk & Audit Log secara Ilegal",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Admin mengubah data NIK/KK/alamat warga atau menghapus entri penduduk secara sepihak tanpa justifikasi. Lalu mencoba menghapus/edit audit log agar tidak terlacak",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": "9"
+                },
+                {
+                  "id": "68adb93a-d031-45ff-a493-3019716b4595",
+                  "title": "Ekstrak & Jual Data Kependudukan",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Admin menggunakan akses legitimnya untuk mengekspor data kependudukan secara massal (misal: Export All ke CSV) lalu menjualnya ke pihak ketiga tanpa sepengetahuan sistem",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": "9"
+                },
+                {
+                  "id": "ff708060-0c88-489d-a47b-b3dac423677e",
+                  "title": "SQL Injection via Form Kelola Data ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker eksternal yang sudah mendapatkan akses akun Admin (via phishing/credential theft) menyisipkan SQL Injection pada form input data penduduk untuk merusak atau dump database",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 2,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": -374,
+              "y": 800
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Kepala Desa\n(Insider)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": "4 3"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "14f7d6fa-16d2-494a-a14b-dcc63c23812e"
+                },
+                {
+                  "group": "right",
+                  "id": "7db60cab-0c9b-4f2e-a9cf-6fa9c6ce28cc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "37491fc0-4607-45a4-aeb0-a3ef7ef9f0ae"
+                },
+                {
+                  "group": "left",
+                  "id": "ab94b17e-1d4d-4626-8666-416645b831b9"
+                }
+              ]
+            },
+            "id": "4a221aeb-fb7f-49ba-85c4-bab971951c44",
+            "zIndex": 30,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Kepala Desa\n(Insider)",
+              "description": "Representasi skenario Kepala Desa yang menyalahgunakan wewenangnya: menyetujui surat tanpa verifikasi (T-25), mengakses/menghapus data pengaduan (T-26), atau menyangkal keputusan (T-27). Diletakkan sebagai aktor ancaman terpisah.",
+              "isTrustBoundary": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -374,
+              "y": 894
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "PKI Certif\nAuthority"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": "4 3"
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "14f7d6fa-16d2-494a-a14b-dcc63c23812e"
+                },
+                {
+                  "group": "right",
+                  "id": "7db60cab-0c9b-4f2e-a9cf-6fa9c6ce28cc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "37491fc0-4607-45a4-aeb0-a3ef7ef9f0ae"
+                },
+                {
+                  "group": "left",
+                  "id": "ab94b17e-1d4d-4626-8666-416645b831b9"
+                }
+              ]
+            },
+            "id": "406256ff-6eb1-4c97-b463-591da31c7a74",
+            "zIndex": 31,
+            "data": {
+              "type": "tm.Actor",
+              "name": "PKI Certif\nAuthority",
+              "description": "Otoritas sertifikat eksternal yang menerbitkan dan memvalidasi key pair untuk digital signature Kepala Desa. Berada di luar sistem SIPDD.",
+              "isTrustBoundary": false,
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 170,
+              "y": 954
+            },
+            "size": {
+              "width": 80,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Login &\nAutentikasi\nKades"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
+            "zIndex": 32,
+            "data": {
+              "type": "tm.Process",
+              "name": "Login &\nAutentikasi\nKades",
+              "description": "Validasi username + password dengan bcrypt. Rate limiting (A-02). Generate session token dengan role='KepalaDesa'. Catat di Audit Log setiap percobaan login. Private key PKI dimuat setelah login sukses (PR-02, SA-02, SA-06)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 180,
+              "y": 1225
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Role &\nOtorisasi\nCheck"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "ce7ad9c5-100d-4d36-968c-564358345f9f",
+            "zIndex": 33,
+            "data": {
+              "type": "tm.Process",
+              "name": "Role &\nOtorisasi\nCheck",
+              "description": "Verifikasi session token valid dengan role='KepalaDesa' sebelum SETIAP aksi sensitif. Menolak HTTP 403 jika role tidak sesuai. Mencatat percobaan akses tidak sah di Audit Log (PR-03, SA-06).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 401,
+              "y": 1100
+            },
+            "size": {
+              "width": 110,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Review \nSurat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "9c9b1304-5592-4260-bff6-b96906eb7e94",
+            "zIndex": 34,
+            "data": {
+              "type": "tm.Process",
+              "name": "Review \nSurat",
+              "description": "Kepala Desa membaca detail surat yang sudah diverifikasi Admin Desa. Read-only pada tahap ini (PR-07, DA-03).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 601,
+              "y": 1090
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Keputusan\nPersetujuan\nSurat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "ad03b01e-e49e-4442-9c7d-39030db84575",
+            "zIndex": 35,
+            "data": {
+              "type": "tm.Process",
+              "name": "Keputusan\nPersetujuan\nSurat",
+              "description": "Kepala Desa memutuskan: Setuju atau Tolak. Status surat HANYA bisa berubah dari 'Diverifikasi' → 'Disetujui' atau 'Ditolak' mengikuti state machine (PR-07, I-04).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 805,
+              "y": 1085
+            },
+            "size": {
+              "width": 90,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Digital\nSignature\n(PKI)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "88f8bef5-ea47-40b1-a0c9-ae3c2f5d04a8",
+            "zIndex": 36,
+            "data": {
+              "type": "tm.Process",
+              "name": "Digital\nSignature\n(PKI)",
+              "description": "Kepala Desa menandatangani surat yang disetujui menggunakan private key (DA-11). Sistem menghasilkan digital signature (DA-10) dan menyematkannya pada dokumen surat. Tanpa tanda tangan, surat tidak bisa diterbitkan (SA-07, DA-10, DA-11, AC-05).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 510,
+              "y": 1470
+            },
+            "size": {
+              "width": 90,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Verifikasi \nIntegritas \nDocs"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "2bbfb3f1-ea6a-4e63-9de5-bfe2b9ce101a",
+            "zIndex": 37,
+            "data": {
+              "type": "tm.Process",
+              "name": "Verifikasi \nIntegritas \nDocs",
+              "description": "Proses otomatis memverifikasi bahwa digital signature valid menggunakan public key sebelum dokumen dikirim ke Warga. Jika verifikasi gagal, dokumen ditolak dan dicatat sebagai anomali di Audit Log (SA-07, PR-16, I-01).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": 1430
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Lihat Laporan\nDesa"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "c28f510f-438a-44b0-a99b-26dd9c6b2105",
+            "zIndex": 38,
+            "data": {
+              "type": "tm.Process",
+              "name": "Lihat Laporan\nDesa",
+              "description": "Kepala Desa mengakses laporan keseluruhan penyelenggaraan desa. Read-only (PR-13, DA-05).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1400,
+              "y": 1085
+            },
+            "size": {
+              "width": 90,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Input Validasi\n& Sanitasi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "8f532e41-bafb-427b-bc63-9d01fa26a7a0",
+            "zIndex": 39,
+            "data": {
+              "type": "tm.Process",
+              "name": "Input Validasi\n& Sanitasi",
+              "description": "Validasi dan sanitasi semua input Kepala Desa (misal: catatan alasan penolakan surat) dari XSS dan SQL Injection sebelum disimpan ke database (SA-11, I-03).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1240
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Digital Signature"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b480917c-bdc4-453a-a5e1-94fd20fee50a"
+                },
+                {
+                  "group": "right",
+                  "id": "f125b3b2-e536-4c36-8624-40b0deff854c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "613abdd5-e9d8-4e34-86cf-2c8a048905c4"
+                },
+                {
+                  "group": "left",
+                  "id": "f4a0b587-fb33-418b-b0e9-af16f2098814"
+                }
+              ]
+            },
+            "id": "270d7117-752e-4eb3-bbb9-825b7a653a50",
+            "zIndex": 40,
+            "data": {
+              "type": "tm.Store",
+              "name": "Digital Signature",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           }
@@ -5250,6 +6904,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 19
+    "threatTop": 30
   }
 }
