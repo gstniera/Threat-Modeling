@@ -856,8 +856,8 @@
           },
           {
             "position": {
-              "x": 365,
-              "y": -50
+              "x": 345,
+              "y": 25
             },
             "size": {
               "width": 80,
@@ -1662,22 +1662,107 @@
             "id": "332c2f47-7a79-4d38-9ee3-bb674f90211a",
             "source": {
               "cell": "3af30690-f38d-4df0-8c9e-8bdfc716ab1c",
-              "port": "aee8ba8c-9d64-4bdd-833a-d20982653395"
+              "port": "6e6de116-ecdd-4d96-a462-382d01ed8908"
             },
             "target": {
               "cell": "f31e586e-75b7-4416-b4f3-0163bb52aada",
-              "port": "27dbbb1e-1f9d-48cc-ab88-6e4a6b45490c"
+              "port": "5a4366ef-c099-459f-b525-af5ab8f6fdb3"
             },
             "vertices": [
               {
-                "x": 740,
-                "y": 150
+                "x": 720,
+                "y": 260
               },
               {
-                "x": 870,
-                "y": 160
+                "x": 780,
+                "y": 310
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -2177,8 +2262,8 @@
           },
           {
             "position": {
-              "x": 830,
-              "y": 210
+              "x": 880,
+              "y": 290
             },
             "size": {
               "width": 120,
@@ -2301,8 +2386,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 334
+              "x": 522,
+              "y": 310
             },
             "size": {
               "width": 120,
