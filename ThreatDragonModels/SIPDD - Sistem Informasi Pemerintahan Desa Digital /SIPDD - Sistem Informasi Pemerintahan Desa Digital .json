@@ -1628,12 +1628,8 @@
             },
             "vertices": [
               {
-                "x": 250,
-                "y": 40
-              },
-              {
-                "x": 270,
-                "y": -5
+                "x": 220,
+                "y": 30
               }
             ]
           },
@@ -2626,7 +2622,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Update Status Surat",
+              "name": "Update Status \nSurat",
               "description": "Status: Menunggu -> Diverifikasi ",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2640,7 +2636,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Update Status Surat"
+              "Update Status \nSurat"
             ],
             "id": "e0396bd1-a3ac-4a2e-bd86-812c278f11df",
             "source": {
@@ -2653,7 +2649,7 @@
             },
             "vertices": [
               {
-                "x": 940,
+                "x": 980,
                 "y": 570
               }
             ]
@@ -3293,27 +3289,183 @@
                 "x": 1720,
                 "y": 300
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Load Private Key \n(Encrypted)",
+              "description": "Private key dimuat ke memory terenkripsi setelah login sukses ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Load Private Key \n(Encrypted)"
             ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "id": "6feff6af-ad19-4462-8002-948f8422eab0",
+            "source": {
+              "cell": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
+              "port": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+            },
+            "target": {
+              "cell": "88f8bef5-ea47-40b1-a0c9-ae3c2f5d04a8",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": [
+              {
+                "x": 390,
+                "y": 1115
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Aksi \n(bawa session token)",
+              "description": "Token dikirim via Authorization header",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Aksi \n(bawa session token)"
+            ],
+            "id": "a3f866c2-b092-47c0-aa35-4fbe18634d86",
+            "source": {
+              "cell": "04c76ecf-37b0-4e8a-bd37-ffa8e8b5e9af",
+              "port": "7db60cab-0c9b-4f2e-a9cf-6fa9c6ce28cc"
+            },
+            "target": {
+              "cell": "ce7ad9c5-100d-4d36-968c-564358345f9f",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": [
+              {
+                "x": 30,
+                "y": 1100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verifikasi Token \n& Validasi Role",
+              "description": "Reject HTTP 403 jika token invalid/expired",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Verifikasi Token \n& Validasi Role"
+            ],
+            "id": "98ac2d5d-90f1-4ad0-8d0f-093be914f66c",
+            "source": {
+              "cell": "ce7ad9c5-100d-4d36-968c-564358345f9f",
+              "port": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+            },
+            "target": {
+              "cell": "cdbf6514-05b3-4f5b-92fb-4e335b9e3b35",
+              "port": "4ff917bb-322a-479d-b636-f00afd9d9f8c"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 1010
+              },
+              {
+                "x": 1000,
+                "y": 950
+              },
+              {
+                "x": 1220,
+                "y": 980
+              },
+              {
+                "x": 1440,
+                "y": 830
+              },
+              {
+                "x": 1590,
+                "y": 660
+              },
+              {
+                "x": 1520,
+                "y": 250
+              }
+            ]
           },
           {
             "position": {
@@ -4419,6 +4571,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -4502,7 +4655,6 @@
               ]
             },
             "id": "92aea900-fc01-4dad-a152-77ed3803bccc",
-            "zIndex": 19,
             "data": {
               "type": "tm.Actor",
               "name": "Admin Desa \n(Insider)",
@@ -4536,6 +4688,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -4619,7 +4772,6 @@
               ]
             },
             "id": "5c7ebc0e-9e9c-4358-877f-5b9b0868a2e3",
-            "zIndex": 20,
             "data": {
               "type": "tm.Process",
               "name": "Login & \nAutentikasi\nAdmin",
@@ -4656,6 +4808,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 21,
             "ports": {
               "groups": {
                 "top": {
@@ -4739,7 +4892,6 @@
               ]
             },
             "id": "1743504d-6f5d-45a5-81f0-a78cf1e68d9a",
-            "zIndex": 21,
             "data": {
               "type": "tm.Process",
               "name": "Verifikasi\nPengajuan\nSurat",
@@ -4776,6 +4928,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 24,
             "ports": {
               "groups": {
                 "top": {
@@ -4859,7 +5012,6 @@
               ]
             },
             "id": "07c93bf8-25f5-4db2-97c2-13cfaff05848",
-            "zIndex": 24,
             "data": {
               "type": "tm.Process",
               "name": "Kelola\nPengaduan",
@@ -4931,6 +5083,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -5014,7 +5167,6 @@
               ]
             },
             "id": "8629b759-1b3c-4d9f-be6c-e7fa8912fbf1",
-            "zIndex": 25,
             "data": {
               "type": "tm.Process",
               "name": "Input \nValidation\n& Sanitasi",
@@ -5051,6 +5203,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 26,
             "ports": {
               "groups": {
                 "top": {
@@ -5134,7 +5287,6 @@
               ]
             },
             "id": "4c80d09f-c224-4338-bc1c-f5324f9f81d7",
-            "zIndex": 26,
             "data": {
               "type": "tm.Process",
               "name": "Role &\nOtorisasi\nCheck",
@@ -5196,6 +5348,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 27,
             "ports": {
               "groups": {
                 "top": {
@@ -5279,7 +5432,6 @@
               ]
             },
             "id": "1515469e-8942-4659-ba3f-45419f7a19e1",
-            "zIndex": 27,
             "data": {
               "type": "tm.Store",
               "name": "Data Penduduk",
@@ -5317,6 +5469,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -5400,7 +5553,6 @@
               ]
             },
             "id": "04c76ecf-37b0-4e8a-bd37-ffa8e8b5e9af",
-            "zIndex": 28,
             "data": {
               "type": "tm.Actor",
               "name": "Kepala Desa",
@@ -5434,6 +5586,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 29,
             "ports": {
               "groups": {
                 "top": {
@@ -5517,7 +5670,6 @@
               ]
             },
             "id": "d3b232a3-619d-48cc-b040-449840d350e2",
-            "zIndex": 29,
             "data": {
               "type": "tm.Process",
               "name": "Kelola Data\nPenduduk",
@@ -5602,6 +5754,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 30,
             "ports": {
               "groups": {
                 "top": {
@@ -5685,7 +5838,6 @@
               ]
             },
             "id": "4a221aeb-fb7f-49ba-85c4-bab971951c44",
-            "zIndex": 30,
             "data": {
               "type": "tm.Actor",
               "name": "Kepala Desa\n(Insider)",
@@ -5719,6 +5871,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 31,
             "ports": {
               "groups": {
                 "top": {
@@ -5802,7 +5955,6 @@
               ]
             },
             "id": "406256ff-6eb1-4c97-b463-591da31c7a74",
-            "zIndex": 31,
             "data": {
               "type": "tm.Actor",
               "name": "PKI Certif\nAuthority",
@@ -5836,6 +5988,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 32,
             "ports": {
               "groups": {
                 "top": {
@@ -5919,7 +6072,6 @@
               ]
             },
             "id": "47611b67-f1ac-4ff5-8a47-ad526f38c89e",
-            "zIndex": 32,
             "data": {
               "type": "tm.Process",
               "name": "Login &\nAutentikasi\nKades",
@@ -5937,8 +6089,8 @@
           },
           {
             "position": {
-              "x": 180,
-              "y": 1225
+              "x": 160,
+              "y": 1105
             },
             "size": {
               "width": 90,
@@ -5956,6 +6108,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -6039,7 +6192,6 @@
               ]
             },
             "id": "ce7ad9c5-100d-4d36-968c-564358345f9f",
-            "zIndex": 33,
             "data": {
               "type": "tm.Process",
               "name": "Role &\nOtorisasi\nCheck",
@@ -6057,8 +6209,8 @@
           },
           {
             "position": {
-              "x": 401,
-              "y": 1100
+              "x": 5,
+              "y": 1370
             },
             "size": {
               "width": 110,
@@ -6076,6 +6228,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 34,
             "ports": {
               "groups": {
                 "top": {
@@ -6159,7 +6312,6 @@
               ]
             },
             "id": "9c9b1304-5592-4260-bff6-b96906eb7e94",
-            "zIndex": 34,
             "data": {
               "type": "tm.Process",
               "name": "Review \nSurat",
@@ -6177,8 +6329,8 @@
           },
           {
             "position": {
-              "x": 601,
-              "y": 1090
+              "x": 295,
+              "y": 1340
             },
             "size": {
               "width": 90,
@@ -6196,6 +6348,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 35,
             "ports": {
               "groups": {
                 "top": {
@@ -6279,7 +6432,6 @@
               ]
             },
             "id": "ad03b01e-e49e-4442-9c7d-39030db84575",
-            "zIndex": 35,
             "data": {
               "type": "tm.Process",
               "name": "Keputusan\nPersetujuan\nSurat",
@@ -6297,8 +6449,8 @@
           },
           {
             "position": {
-              "x": 805,
-              "y": 1085
+              "x": 661,
+              "y": 1065
             },
             "size": {
               "width": 90,
@@ -6316,6 +6468,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 36,
             "ports": {
               "groups": {
                 "top": {
@@ -6399,7 +6552,6 @@
               ]
             },
             "id": "88f8bef5-ea47-40b1-a0c9-ae3c2f5d04a8",
-            "zIndex": 36,
             "data": {
               "type": "tm.Process",
               "name": "Digital\nSignature\n(PKI)",
@@ -6436,6 +6588,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 37,
             "ports": {
               "groups": {
                 "top": {
@@ -6519,7 +6672,6 @@
               ]
             },
             "id": "2bbfb3f1-ea6a-4e63-9de5-bfe2b9ce101a",
-            "zIndex": 37,
             "data": {
               "type": "tm.Process",
               "name": "Verifikasi \nIntegritas \nDocs",
@@ -6556,6 +6708,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 38,
             "ports": {
               "groups": {
                 "top": {
@@ -6639,7 +6792,6 @@
               ]
             },
             "id": "c28f510f-438a-44b0-a99b-26dd9c6b2105",
-            "zIndex": 38,
             "data": {
               "type": "tm.Process",
               "name": "Lihat Laporan\nDesa",
@@ -6676,6 +6828,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 39,
             "ports": {
               "groups": {
                 "top": {
@@ -6759,7 +6912,6 @@
               ]
             },
             "id": "8f532e41-bafb-427b-bc63-9d01fa26a7a0",
-            "zIndex": 39,
             "data": {
               "type": "tm.Process",
               "name": "Input Validasi\n& Sanitasi",
@@ -6799,6 +6951,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 40,
             "ports": {
               "groups": {
                 "top": {
@@ -6882,7 +7035,6 @@
               ]
             },
             "id": "270d7117-752e-4eb3-bbb9-825b7a653a50",
-            "zIndex": 40,
             "data": {
               "type": "tm.Store",
               "name": "Digital Signature",
