@@ -2840,34 +2840,289 @@
             "labels": [
               "Data Penduduk \n(CRUD input)"
             ],
-            "id": "3c83298e-2af4-4b07-b49f-9a1f30c9e136",
+            "id": "c6196cc3-42e9-4fb8-b622-7d620bdd5f8b",
             "source": {
               "cell": "4c80d09f-c224-4338-bc1c-f5324f9f81d7",
-              "port": "0c0900f1-346e-4816-9a30-c7348838f210"
+              "port": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
             },
             "target": {
-              "cell": "7907b373-fda9-4dbe-ade4-33921df01796",
-              "port": "6e6de116-ecdd-4d96-a462-382d01ed8908"
+              "cell": "8629b759-1b3c-4d9f-be6c-e7fa8912fbf1",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
             },
             "vertices": [
               {
-                "x": 270,
-                "y": 430
+                "x": 480,
+                "y": 820
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sanitized \nData Penduduk",
+              "description": "Validated & sanitized ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sanitized \nData Penduduk"
+            ],
+            "id": "0c5576e8-4c4b-4938-8790-bda287240911",
+            "source": {
+              "cell": "8629b759-1b3c-4d9f-be6c-e7fa8912fbf1",
+              "port": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+            },
+            "target": {
+              "cell": "d3b232a3-619d-48cc-b040-449840d350e2",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": [
+              {
+                "x": 980,
+                "y": 820
               },
               {
-                "x": 340,
-                "y": 370
+                "x": 1000,
+                "y": 860
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CRUD \nData Penduduk",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "CRUD \nData Penduduk"
+            ],
+            "id": "35e3a6a8-28f2-4345-bebf-746fbffcc61a",
+            "source": {
+              "cell": "d3b232a3-619d-48cc-b040-449840d350e2",
+              "port": "0c0900f1-346e-4816-9a30-c7348838f210"
+            },
+            "target": {
+              "cell": "1515469e-8942-4659-ba3f-45419f7a19e1",
+              "port": "f4a0b587-fb33-418b-b0e9-af16f2098814"
+            },
+            "vertices": [
+              {
+                "x": 1270,
+                "y": 790
               },
               {
-                "x": 430,
-                "y": 290
+                "x": 1290,
+                "y": 680
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log Perubahan \nData Penduduk",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Log Perubahan \nData Penduduk"
+            ],
+            "id": "bf7629c5-57a5-4c0a-a044-0512bab1e5e7",
+            "source": {
+              "cell": "d3b232a3-619d-48cc-b040-449840d350e2",
+              "port": "0c0900f1-346e-4816-9a30-c7348838f210"
+            },
+            "target": {
+              "cell": "d20ac94f-2539-4ef1-931b-5ff9918f86a1",
+              "port": "cd082e01-9385-4f67-a757-8443b0775edd"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request Buka\n Pengaduan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request Buka\n Pengaduan"
+            ],
+            "id": "93bad476-35c1-48ab-952a-33dfdc858b45",
+            "source": {
+              "cell": "4c80d09f-c224-4338-bc1c-f5324f9f81d7",
+              "port": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+            },
+            "target": {
+              "cell": "07c93bf8-25f5-4db2-97c2-13cfaff05848",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": [
+              {
+                "x": 335,
+                "y": 830
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Mass Export / \nIlegal Modify",
+              "description": "Blocked by Audit Log + Export Throttling ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Mass Export / \nIlegal Modify"
+            ],
+            "id": "d2d33603-d6ae-4a25-b3a6-043a56ab5cb3",
+            "source": {
+              "cell": "92aea900-fc01-4dad-a152-77ed3803bccc",
+              "port": "7db60cab-0c9b-4f2e-a9cf-6fa9c6ce28cc"
+            },
+            "target": {
+              "cell": "07c93bf8-25f5-4db2-97c2-13cfaff05848",
+              "port": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 910
               }
             ]
           },
           {
             "position": {
-              "x": 320,
-              "y": 410
+              "x": 295,
+              "y": 400
             },
             "size": {
               "width": 120,
@@ -3914,8 +4169,8 @@
           },
           {
             "position": {
-              "x": -343,
-              "y": 354
+              "x": 67.5,
+              "y": 834
             },
             "size": {
               "width": 112.5,
@@ -4271,248 +4526,8 @@
           },
           {
             "position": {
-              "x": 1632,
-              "y": 244
-            },
-            "size": {
-              "width": 100,
-              "height": 80
-            },
-            "attrs": {
-              "text": {
-                "text": "Kelola Data\nPenduduk"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
-                },
-                {
-                  "group": "right",
-                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
-                },
-                {
-                  "group": "left",
-                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
-                }
-              ]
-            },
-            "id": "1d19cd80-3937-4838-b288-eeb7084f9318",
-            "zIndex": 22,
-            "data": {
-              "type": "tm.Process",
-              "name": "Kelola Data\nPenduduk",
-              "description": "Admin melakukan operasi CRUD (Create, Read, Update, Delete) pada data penduduk. Setiap perubahan diaudit (PR-10, DA-01).",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1415,
-              "y": 520
-            },
-            "size": {
-              "width": 100,
-              "height": 90
-            },
-            "attrs": {
-              "text": {
-                "text": "Kelola Berita\ndan Informasi"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
-                },
-                {
-                  "group": "right",
-                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
-                },
-                {
-                  "group": "left",
-                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
-                }
-              ]
-            },
-            "id": "34e7dfae-15ef-4d90-819f-9a6721726c74",
-            "zIndex": 23,
-            "data": {
-              "type": "tm.Process",
-              "name": "Kelola Berita\ndan Informasi",
-              "description": "Admin membuat, mengedit, mempublikasikan berita dan pengumuman desa (PR-11, DA-08).",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 1755,
-              "y": 310
+              "x": 481,
+              "y": 860
             },
             "size": {
               "width": 90,
@@ -4631,8 +4646,8 @@
           },
           {
             "position": {
-              "x": 1637,
-              "y": 425
+              "x": 790,
+              "y": 745
             },
             "size": {
               "width": 90,
@@ -4871,8 +4886,8 @@
           },
           {
             "position": {
-              "x": 1595,
-              "y": 150
+              "x": 1370,
+              "y": 625
             },
             "size": {
               "width": 120,
@@ -4995,8 +5010,8 @@
           },
           {
             "position": {
-              "x": -150,
-              "y": 870
+              "x": -160,
+              "y": 930
             },
             "size": {
               "width": 112.5,
@@ -5107,6 +5122,126 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1110,
+              "y": 855
+            },
+            "size": {
+              "width": 120,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Kelola Data\nPenduduk"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "0c0900f1-346e-4816-9a30-c7348838f210"
+                },
+                {
+                  "group": "right",
+                  "id": "d5c230bf-e450-4a7b-a61e-cbe28965b2ad"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c6626bf-ca86-4650-9cda-cb9639479e0a"
+                },
+                {
+                  "group": "left",
+                  "id": "ccaa50e2-4db7-47fb-943c-0f97130d1208"
+                }
+              ]
+            },
+            "id": "d3b232a3-619d-48cc-b040-449840d350e2",
+            "zIndex": 29,
+            "data": {
+              "type": "tm.Process",
+              "name": "Kelola Data\nPenduduk",
+              "description": "Admin melakukan operasi CRUD (Create, Read, Update, Delete) pada data penduduk. Setiap perubahan diaudit (PR-10, DA-01).",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           }
