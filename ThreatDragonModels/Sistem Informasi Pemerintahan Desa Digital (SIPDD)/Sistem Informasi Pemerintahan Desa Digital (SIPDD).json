@@ -19,116 +19,6 @@
         "cells": [
           {
             "position": {
-              "x": -847.5,
-              "y": -430
-            },
-            "size": {
-              "width": 1640,
-              "height": 1920
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "98e54360-c8a7-4937-b5d4-424812059680",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "49082987-b51f-422e-a905-598f8597f5d1",
-                "0216a629-95cd-4440-9d0c-d12e05e2223a",
-                "12004d6d-369c-41ac-8272-67e60cdd6ef0",
-                "8fc5eca7-b934-4ef1-bf3b-0664484febcc",
-                "a9096cc7-bb4f-4d51-8d8b-78ecdd8261c1",
-                "8878ad70-5b97-4e62-83a1-7f35228065a9",
-                "95cf4309-17ca-4847-9070-24d356e3f29a",
-                "1b235500-9a3f-4bed-ba34-eeda05c73623",
-                "7735cc1c-157b-45c8-99fa-d7e3018f6cae",
-                "01bcb6b9-5dec-4289-b02a-86bc887d749e",
-                "e8b30b49-79cc-42db-864a-c01329a42744",
-                "9044ede0-b5b5-4db6-8229-4c18af324da8",
-                "e70f9593-5ed1-4a68-b1bb-2709cb385ff8",
-                "b7c9498b-1f1c-4d21-b41b-26f593919a84",
-                "aef39844-0aa5-4111-83ad-fb7171dee849",
-                "f497f596-1ddf-49d8-8cd7-80755d482e8f",
-                "318887b1-b9bf-43a9-ba58-079581309d38",
-                "c0be6b83-673e-430f-a4de-a8680c233000",
-                "b9dace5c-a367-45e9-a606-4034abd87ccd"
-              ],
-              "containedElements": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d",
-                "fbdf2da1-55b7-4868-8461-b11d07dee8a5",
-                "8c6809a7-5be1-48f2-af53-575499e05dc5",
-                "845b66ad-7ee6-48b9-af4d-f9b0a47dd203",
-                "90d42bab-e369-400e-8b16-6f63b0a4410e",
-                "63b0881a-cc97-4ccb-915d-3971d9af5e82",
-                "85808987-3555-4e1a-8ce1-2d28a8a23fc3",
-                "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-                "67689950-490d-4398-bc73-3731c3e89bbd",
-                "0e64fb03-cd52-4e33-af89-0ab76a5acb60",
-                "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
-                "235b497d-c6e7-4247-b7e7-786490bc0456",
-                "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
-                "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-                "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
-                "e9d331b4-92ba-4816-8d9b-72c20089420f",
-                "ed1edb05-a963-402f-a3fe-bfc29fe3c3a3",
-                "a3e85b1a-2389-4b8c-a014-69b24c0d837b"
-              ]
-            }
-          },
-          {
-            "position": {
-              "x": 401.99999999999795,
-              "y": -221.99999999999955
-            },
-            "size": {
-              "width": 230,
-              "height": 820
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "10ee3050-8c87-46e9-9ec7-210d6681267d",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "42a3d1d0-342b-4ff3-8847-f03341a7185c",
-                "76c20335-6235-43fb-ae19-6fd5f4d134ea",
-                "d7f5ee6f-c6a5-43cb-bfdf-e90e7e65a976",
-                "7ead546f-86d1-4a16-b811-99380fe3d4e0",
-                "74d0d2a2-c5b2-4a3a-9175-80b6132a7d7a",
-                "7a4c52c2-b2e7-45c3-972c-0bc5d479dad7",
-                "73a54577-2b2a-4660-b690-91dfcaec6b91",
-                "67e6e56b-43bd-4539-a924-7aedad31a3d4",
-                "1003e97e-295b-4518-b487-efadd2db09c7",
-                "37be170f-d5e0-429a-9e22-851f07e38795",
-                "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
-                "5c7045ce-685f-4628-871e-bbb1c96ed25f",
-                "9dcf6a89-a315-4866-90eb-18a782f6635b",
-                "74624529-91d4-4794-903b-f449e4e0d1a9",
-                "8a392d1f-c22d-450b-8b12-6f049e4e5a1e",
-                "d773591d-547e-48c1-8081-414c9f94d50d",
-                "a28d1e45-e41e-4463-8de2-dd77522c5b62"
-              ],
-              "containedElements": [
-                "85808987-3555-4e1a-8ce1-2d28a8a23fc3",
-                "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-                "67689950-490d-4398-bc73-3731c3e89bbd",
-                "0e64fb03-cd52-4e33-af89-0ab76a5acb60",
-                "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
-                "a3e85b1a-2389-4b8c-a014-69b24c0d837b"
-              ]
-            }
-          },
-          {
-            "position": {
               "x": -1050,
               "y": -210
             },
@@ -963,8 +853,8 @@
           },
           {
             "position": {
-              "x": 456.99999999999795,
-              "y": 470
+              "x": 511.99999999999795,
+              "y": 510
             },
             "size": {
               "width": 120,
@@ -1087,8 +977,8 @@
           },
           {
             "position": {
-              "x": 456.99999999999795,
-              "y": 220
+              "x": 511.99999999999795,
+              "y": 240
             },
             "size": {
               "width": 120,
@@ -1211,8 +1101,8 @@
           },
           {
             "position": {
-              "x": 456.99999999999795,
-              "y": -170
+              "x": 511.99999999999795,
+              "y": -160
             },
             "size": {
               "width": 120,
@@ -1365,7 +1255,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1420,7 +1309,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1475,7 +1363,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1530,7 +1417,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1585,7 +1471,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1644,7 +1529,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1702,9 +1586,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Simpan pengaduan \ntersanitasi"
@@ -1757,7 +1639,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1816,7 +1697,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1875,7 +1755,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1925,7 +1804,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "1ec339ed-b8a5-42a9-bafb-c53b585ac61d"
               ]
             },
@@ -1975,7 +1853,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "23db2264-76e5-499c-8ac0-27d46df82cfc"
               ]
             },
@@ -2030,7 +1907,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "23db2264-76e5-499c-8ac0-27d46df82cfc"
               ]
             },
@@ -2085,7 +1961,6 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680",
                 "23db2264-76e5-499c-8ac0-27d46df82cfc"
               ]
             },
@@ -2139,9 +2014,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2162,7 +2035,7 @@
               },
               {
                 "x": -40,
-                "y": 240
+                "y": 220
               }
             ]
           },
@@ -2244,9 +2117,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2298,9 +2169,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2360,9 +2229,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Verifikasi kredensial \n& role warga"
@@ -2388,60 +2255,6 @@
               {
                 "x": 300,
                 "y": 370
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Simpan surat baru \n+ catat audit log \npengajuan",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
-            },
-            "labels": [
-              "Simpan surat baru \n+ catat audit log \npengajuan"
-            ],
-            "id": "7a4c52c2-b2e7-45c3-972c-0bc5d479dad7",
-            "source": {
-              "cell": "8c6809a7-5be1-48f2-af53-575499e05dc5",
-              "port": "f4beaeab-1b72-4298-83bb-a84c19724c80"
-            },
-            "target": {
-              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
-            },
-            "vertices": [
-              {
-                "x": -140,
-                "y": 330
               }
             ]
           },
@@ -2516,9 +2329,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2570,9 +2381,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Login [HTTPS]: \ncredentials -> \nsession token Admin"
@@ -2624,9 +2433,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2678,9 +2485,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Verifikasi kredensial & \nkonfirmasi role Admin"
@@ -2732,9 +2537,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Catat log login (berhasil/gagal) \n+ IP + timestamp"
@@ -2798,9 +2601,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Catat log login \nAdmin + IP + timestamp"
@@ -2852,9 +2653,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -2901,9 +2700,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Review & verifikasi \nsurat  [HTTPS+Token] \n-> update status"
@@ -2950,175 +2747,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
-            "source": {
-              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-              "port": "e102c86f-5b40-4729-983d-a835f6880364"
-            },
-            "target": {
-              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
-            },
-            "vertices": [
-              {
-                "x": -50,
-                "y": 400
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Read surat + check NIK \n-> update status",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
-            },
-            "labels": [
-              "Read surat + check NIK \n-> update status"
-            ],
-            "id": "5c7045ce-685f-4628-871e-bbb1c96ed25f",
-            "source": {
-              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
-              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
-            },
-            "target": {
-              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-              "port": "e102c86f-5b40-4729-983d-a835f6880364"
-            },
-            "vertices": [
-              {
-                "x": -50,
-                "y": 400
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Catat log \nverifikasi surat",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
-            },
-            "labels": [
-              "Catat log \nverifikasi surat"
-            ],
-            "id": "9dcf6a89-a315-4866-90eb-18a782f6635b",
-            "source": {
-              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
-              "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
-            },
-            "target": {
-              "cell": "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
-              "port": "58107c3d-bbf0-47cb-83bf-42a002b8a8c4"
-            },
-            "vertices": [
-              {
-                "x": 580,
-                "y": 660
-              },
-              {
-                "x": 740,
-                "y": 90
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -3170,9 +2799,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "98e54360-c8a7-4937-b5d4-424812059680"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "CRUD data penduduk \n[HTTPS+Token] -> \nconfirm update"
@@ -3224,9 +2851,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               ""
@@ -3273,9 +2898,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Insert/Update/\nDelete"
@@ -3292,9 +2915,169 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Catat log update\ndata penduduk \n(old value → new value)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Catat log update\ndata penduduk \n(old value → new value)"
+            ],
+            "id": "ad292b90-4b63-4e9b-bb5f-244135608398",
+            "source": {
+              "cell": "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "target": {
+              "cell": "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
+              "port": "775c9263-609a-4571-beb8-25243f9d666e"
+            },
+            "vertices": [
+              {
+                "x": -160,
+                "y": 280
+              },
+              {
+                "x": 130,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "a6491f4d-73ba-4fd7-a866-f3d279bea7a0",
+            "source": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+            },
+            "target": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "775c9263-609a-4571-beb8-25243f9d666e"
+            },
+            "vertices": [
+              {
+                "x": 10,
+                "y": 590
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read surat + crossheck NIK\n-> update status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Read surat + crossheck NIK\n-> update status"
+            ],
+            "id": "1b89ba1d-054d-4868-a2de-abc8cac8f30b",
+            "source": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "775c9263-609a-4571-beb8-25243f9d666e"
+            },
+            "target": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+            },
+            "vertices": [
+              {
+                "x": 10,
+                "y": 590
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 456.99999999999795,
-              "y": 80
+              "x": 511.99999999999795,
+              "y": 110
             },
             "size": {
               "width": 120,
@@ -3417,8 +3200,8 @@
           },
           {
             "position": {
-              "x": 456.99999999999795,
-              "y": -50
+              "x": 511.99999999999795,
+              "y": -20
             },
             "size": {
               "width": 120,
@@ -3687,9 +3470,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Query berita \nterpublikasi"
@@ -3706,7 +3487,7 @@
             "vertices": [
               {
                 "x": -40,
-                "y": 240
+                "y": 220
               },
               {
                 "x": -390,
@@ -3769,9 +3550,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "10ee3050-8c87-46e9-9ec7-210d6681267d"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Query status surat\n->  validasi suratId "
@@ -4466,8 +4245,8 @@
           },
           {
             "position": {
-              "x": 456.99999999999795,
-              "y": 340
+              "x": 511.99999999999795,
+              "y": 380
             },
             "size": {
               "width": 120,
@@ -4587,6 +4366,110 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 31,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
+            "source": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "target": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "vertices": [
+              {
+                "x": -30,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 32,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Simpan surat baru \n+ catat audit log \npengajuan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Simpan surat baru \n+ catat audit log \npengajuan"
+            ],
+            "id": "7a4c52c2-b2e7-45c3-972c-0bc5d479dad7",
+            "source": {
+              "cell": "8c6809a7-5be1-48f2-af53-575499e05dc5",
+              "port": "f4beaeab-1b72-4298-83bb-a84c19724c80"
+            },
+            "target": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "vertices": [
+              {
+                "x": -140,
+                "y": 330
+              }
+            ]
           }
         ]
       }
