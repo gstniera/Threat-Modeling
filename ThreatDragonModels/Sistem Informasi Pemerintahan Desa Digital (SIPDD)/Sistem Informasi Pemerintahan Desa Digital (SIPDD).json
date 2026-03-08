@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -837.5,
-              "y": -450
+              "x": -860,
+              "y": -420
             },
             "size": {
               "width": 1640,
@@ -51,7 +51,9 @@
                 "9044ede0-b5b5-4db6-8229-4c18af324da8",
                 "e70f9593-5ed1-4a68-b1bb-2709cb385ff8",
                 "b7c9498b-1f1c-4d21-b41b-26f593919a84",
-                "aef39844-0aa5-4111-83ad-fb7171dee849"
+                "aef39844-0aa5-4111-83ad-fb7171dee849",
+                "f497f596-1ddf-49d8-8cd7-80755d482e8f",
+                "318887b1-b9bf-43a9-ba58-079581309d38"
               ],
               "containedElements": [
                 "10ee3050-8c87-46e9-9ec7-210d6681267d",
@@ -104,6 +106,9 @@
                 "73a54577-2b2a-4660-b690-91dfcaec6b91",
                 "67e6e56b-43bd-4539-a924-7aedad31a3d4",
                 "1003e97e-295b-4518-b487-efadd2db09c7",
+                "37be170f-d5e0-429a-9e22-851f07e38795",
+                "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
+                "5c7045ce-685f-4628-871e-bbb1c96ed25f",
                 "d773591d-547e-48c1-8081-414c9f94d50d",
                 "a28d1e45-e41e-4463-8de2-dd77522c5b62"
               ],
@@ -1078,7 +1083,7 @@
           {
             "position": {
               "x": 456.99999999999795,
-              "y": 80
+              "y": 220
             },
             "size": {
               "width": 120,
@@ -2149,6 +2154,10 @@
               {
                 "x": -390,
                 "y": 240
+              },
+              {
+                "x": -40,
+                "y": 240
               }
             ]
           },
@@ -2626,7 +2635,12 @@
               "cell": "85808987-3555-4e1a-8ce1-2d28a8a23fc3",
               "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 0,
+                "y": 500
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2675,7 +2689,12 @@
               "cell": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
               "port": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 0,
+                "y": 500
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2744,9 +2763,269 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Catat log login \nAdmin + IP + timestamp",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              "Catat log login \nAdmin + IP + timestamp"
+            ],
+            "id": "37be170f-d5e0-429a-9e22-851f07e38795",
+            "source": {
+              "cell": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "target": {
+              "cell": "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "vertices": [
+              {
+                "x": -240,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "98e54360-c8a7-4937-b5d4-424812059680"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "f497f596-1ddf-49d8-8cd7-80755d482e8f",
+            "source": {
+              "cell": "21372ea3-3828-4506-8afb-8f2c14bb579a",
+              "port": "2e9823a0-6a7a-467e-8bdb-f07c72e52598"
+            },
+            "target": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Review & verifikasi \nsurat  [HTTPS+Token] \n-> update status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "98e54360-c8a7-4937-b5d4-424812059680"
+              ]
+            },
+            "labels": [
+              "Review & verifikasi \nsurat  [HTTPS+Token] \n-> update status"
+            ],
+            "id": "318887b1-b9bf-43a9-ba58-079581309d38",
+            "source": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+            },
+            "target": {
+              "cell": "21372ea3-3828-4506-8afb-8f2c14bb579a",
+              "port": "2e9823a0-6a7a-467e-8bdb-f07c72e52598"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              ""
+            ],
+            "id": "dd85d2a5-cdbe-4cfa-8e0a-b9a288a9ec7a",
+            "source": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "target": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "vertices": [
+              {
+                "x": -50,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Read surat + check NIK \n-> update status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "10ee3050-8c87-46e9-9ec7-210d6681267d"
+              ]
+            },
+            "labels": [
+              "Read surat + check NIK \n-> update status"
+            ],
+            "id": "5c7045ce-685f-4628-871e-bbb1c96ed25f",
+            "source": {
+              "cell": "b550a9fc-a020-4b75-94e2-1900bdb46b09",
+              "port": "be89e1b4-45cf-46cd-a78a-d91e4268614d"
+            },
+            "target": {
+              "cell": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+              "port": "e102c86f-5b40-4729-983d-a835f6880364"
+            },
+            "vertices": [
+              {
+                "x": -50,
+                "y": 420
+              }
+            ]
+          },
+          {
             "position": {
               "x": 456.99999999999795,
-              "y": 210
+              "y": 80
             },
             "size": {
               "width": 120,
@@ -3157,6 +3436,10 @@
             },
             "vertices": [
               {
+                "x": -40,
+                "y": 240
+              },
+              {
                 "x": -390,
                 "y": 240
               }
@@ -3290,7 +3573,7 @@
           },
           {
             "position": {
-              "x": 791,
+              "x": 792.5,
               "y": -450
             },
             "size": {
@@ -3434,8 +3717,8 @@
           },
           {
             "position": {
-              "x": -600,
-              "y": 580
+              "x": -620,
+              "y": 510
             },
             "size": {
               "width": 100,
