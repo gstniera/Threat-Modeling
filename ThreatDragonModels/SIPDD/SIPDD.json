@@ -41,15 +41,15 @@
                 "00c83f97-80ae-466d-95bb-fcbd4619f54b",
                 "6a51d0b7-4d17-4c55-9b8c-28db6a385f84",
                 "8b70494d-6396-418d-90ec-e81918a2ceec",
-                "2244067a-60fb-470b-b8af-04fa8724d4b0",
                 "c823c9ca-bfb9-4ea0-bd7b-7125355497c6",
                 "ad5f4b8c-fd55-404a-9c54-2201d1b37b38",
                 "8f1c5238-779d-425b-bb14-a2b47977c227",
-                "b0a84d04-2715-4992-988b-0b9bb4df8f9a",
                 "b0a7ecc8-b6fb-4809-b02e-c83324e637c7",
                 "d7dd70b5-f356-4e15-808d-b574feefc469",
-                "277601ff-5476-4ac3-8464-a1164388a117",
-                "926fcf74-4068-4d3f-abd2-747c6527e05e"
+                "2244067a-60fb-470b-b8af-04fa8724d4b0",
+                "b0a84d04-2715-4992-988b-0b9bb4df8f9a",
+                "926fcf74-4068-4d3f-abd2-747c6527e05e",
+                "277601ff-5476-4ac3-8464-a1164388a117"
               ],
               "containedElements": [
                 "307a44de-775b-4f1c-8af8-5ad19de2ee67",
@@ -93,13 +93,13 @@
                 "5e71c078-c67a-4e1e-a9ef-89d211f3137f",
                 "d925999f-7e35-43f4-9182-414a72d74ce5",
                 "49361402-4182-4ef7-8a15-c2b395d2c8d5",
-                "4591d725-d9d5-4c4f-98ee-e1aaa40d34cf",
                 "13517e26-3ce1-495f-928c-7d627687a888",
                 "c30d0ae8-2387-4ff4-abdd-69b459dae6b9",
                 "5adc199d-e715-4113-b008-1c02aac2d6a7",
                 "6befe155-a592-4862-a0bd-e46690c1497c",
                 "06746d87-721e-49d1-b834-55729aa894ff",
                 "efc51d96-b736-4bac-90b7-033a27010cc5",
+                "4591d725-d9d5-4c4f-98ee-e1aaa40d34cf",
                 "ac0c5ad5-5acb-4d7c-9bb9-09f5b6e0bf1b",
                 "08ecf5b4-c0ca-4652-8409-e9d132d12854"
               ],
@@ -139,8 +139,8 @@
                 "text": "Warga"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -237,9 +237,40 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "d188a41a-1da7-412d-b885-6ea900c9f288",
+                  "title": "Brute Force",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Ribuan kombinasi username/password untuk masuk ke akun warga lain",
+                  "mitigation": "Rate limiting 5x/15min, account lockout, CAPTCHA pada login",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": "8"
+                },
+                {
+                  "id": "e7c27b6d-d5db-46fc-9f89-7f60b1b07d93",
+                  "title": "Session Hijacking",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "Mencuri session token aktif via sniffing jaringan atau XSS",
+                  "mitigation": "HTTPS/TLS wajib, cookie HttpOnly & Secure, session expiry otomatis",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
             },
             "children": [
               "5f6f4af9-c5db-4ec4-958f-95f59794efe2"
@@ -259,8 +290,8 @@
                 "text": "Login & \nAutentikasi"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -357,59 +388,20 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": [
                 {
-                  "id": "e57ec40b-a489-458d-9237-f0b7f76de6a9",
-                  "title": "Brute Force Login",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing",
-                  "description": "Mencoba ribuan kombinasi username/password secara otomatis untuk masuk ke akun warga lain",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 1,
-                  "score": "8"
-                },
-                {
-                  "id": "517bc382-6683-4c3b-b843-78035731d868",
-                  "title": "Session Hijacking",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing",
-                  "description": "Mencuri session token aktif warga melalui sniffing jaringan atau eksploitasi XSS",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": "8"
-                },
-                {
-                  "id": "99afd7c1-cac5-42a0-aacd-809d5ffa7023",
-                  "title": "Phishing",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Spoofing",
-                  "description": "Menipu warga untuk memasukkan kredensial di situs palsu yang menyerupai SIPDD",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 4,
-                  "score": "6"
-                },
-                {
                   "id": "6626bd01-f0a5-4286-b7e0-3c176d395e0b",
                   "title": "Flooding Endpoint validasiLogin() ",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "type": "Denial of service",
                   "description": "Flooding endpoint validasiLogin() dengan ribuan request untuk melumpuhkan proses autentikasi dan membuat sistem tidak responsif",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Rate limiting per IP, API gateway throttling, load balancer auto-scaling",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 10,
@@ -417,11 +409,11 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 3,
+                "spoofing": 1,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
+                "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
             }
@@ -909,68 +901,6 @@
               {
                 "x": 820,
                 "y": 535
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Old -> new",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "73e01305-9521-41fd-997e-557cd4d7d955"
-              ]
-            },
-            "labels": [
-              "Old -> new"
-            ],
-            "id": "2244067a-60fb-470b-b8af-04fa8724d4b0",
-            "source": {
-              "cell": "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
-              "port": "454b3474-dc74-4a68-b57e-d1d0154d99d6"
-            },
-            "target": {
-              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
-              "port": "a459f7e4-13a1-4623-894f-2c9a5f1eeefe"
-            },
-            "vertices": [
-              {
-                "x": 1100,
-                "y": 610
-              },
-              {
-                "x": 900,
-                "y": 620
-              },
-              {
-                "x": 690,
-                "y": 620
               }
             ]
           },
@@ -1680,60 +1610,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Response\n(Confirmation)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
-              ]
-            },
-            "labels": [
-              "Response\n(Confirmation)"
-            ],
-            "id": "4591d725-d9d5-4c4f-98ee-e1aaa40d34cf",
-            "source": {
-              "cell": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
-              "port": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
-            },
-            "target": {
-              "cell": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
-              "port": "f9b8bfd8-3396-4838-bc03-7a2086af7be3"
-            },
-            "vertices": [
-              {
-                "x": 270,
-                "y": 1220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Insert/Update",
               "description": "",
               "outOfScope": false,
@@ -1767,55 +1643,6 @@
                 "y": 880
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Old -> new\nke Audit Log",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "73e01305-9521-41fd-997e-557cd4d7d955"
-              ]
-            },
-            "labels": [
-              "Old -> new\nke Audit Log"
-            ],
-            "id": "b0a84d04-2715-4992-988b-0b9bb4df8f9a",
-            "source": {
-              "cell": "583c0f2c-35cc-4f5f-9b24-bf887b43435d",
-              "port": "10633142-4ca3-4325-aa27-a417cf86378d"
-            },
-            "target": {
-              "cell": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
-              "port": "7e47eb08-7cc7-48ce-bc9d-cc109d371c83"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -2402,8 +2229,7 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
                 "targetMarker": {
                   "name": "block"
                 },
@@ -2419,74 +2245,188 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Surat Data",
+              "name": "Old -> new\nke Audit Log",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [
                 {
-                  "id": "5ced1afa-04b5-4da6-a244-8d21f97a81ac",
-                  "title": "IDOR",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Mengubah nilai parameter suratId di URL/request untuk mengakses data surat milik warga lain tanpa otorisasi",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "id": "025bff41-a629-4252-a753-494618dc794f",
+                  "title": "Modifikasi Audit Log",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Mencoba hapus atau modifikasi entri audit log untuk sembunyikan perubahan data",
+                  "mitigation": "Admin tidak diberi hak DELETE/UPDATE pada tabel audit log, monitoring akses DB real-time",
                   "modelType": "STRIDE",
                   "new": false,
-                  "number": 7,
-                  "score": "7"
+                  "number": 23,
+                  "score": "9"
                 }
               ],
               "trustBoundaryIds": [
                 "73e01305-9521-41fd-997e-557cd4d7d955"
               ],
               "threatFrequency": {
-                "tampering": 0,
-                "informationDisclosure": 1,
+                "tampering": 1,
+                "informationDisclosure": 0,
                 "denialOfService": 0
               }
             },
             "labels": [
-              "Surat Data"
+              "Old -> new\nke Audit Log"
             ],
-            "id": "277601ff-5476-4ac3-8464-a1164388a117",
+            "id": "2244067a-60fb-470b-b8af-04fa8724d4b0",
             "source": {
-              "cell": "8433ccd7-b2c9-4d60-9d75-cac5292a29dd",
-              "port": "58137d03-6927-47a3-9682-d1e9f1cb1c36"
+              "cell": "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+              "port": "454b3474-dc74-4a68-b57e-d1d0154d99d6"
             },
             "target": {
-              "cell": "5b029fbf-9372-4183-a0de-4d025735bffe",
-              "port": "4557e41b-5d6c-46d9-84d8-cb1a5ed70a49"
+              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
+              "port": "a459f7e4-13a1-4623-894f-2c9a5f1eeefe"
             },
             "vertices": [
               {
-                "x": 620,
-                "y": 160
+                "x": 1100,
+                "y": 610
               },
               {
-                "x": 680,
-                "y": 270
+                "x": 900,
+                "y": 620
               },
               {
-                "x": 790,
-                "y": 230
-              },
-              {
-                "x": 910,
-                "y": 310
-              },
-              {
-                "x": 1120,
-                "y": 310
+                "x": 610,
+                "y": 620
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response\n(Confirmation,\nGenerate Laporan)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "e3a35424-b812-481b-ac53-5bf857d9bef6",
+                  "title": "Manipulasi Angka",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Manipulasi angka di proses generate laporan sebelum dikirim ke Kepala Desa, tidak mencerminkan data APBDes asli",
+                  "mitigation": "Laporan di-generate otomatis dari DB APBDes, dilengkapi hash integritas, Kepala Desa dapat verifikasi raw data",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": "9"
+                }
+              ],
+              "trustBoundaryIds": [
+                "74aff9ef-2c5d-4ab6-a7d4-ee98c59d5341"
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Response\n(Confirmation,\nGenerate Laporan)"
+            ],
+            "id": "4591d725-d9d5-4c4f-98ee-e1aaa40d34cf",
+            "source": {
+              "cell": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
+              "port": "7255fcff-57f1-4b7f-b30b-69f4df3ae78a"
+            },
+            "target": {
+              "cell": "64e250b7-fc69-4bc5-8f8f-ba4f930d5b01",
+              "port": "f9b8bfd8-3396-4838-bc03-7a2086af7be3"
+            },
+            "vertices": [
+              {
+                "x": 270,
+                "y": 1220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Old -> new\nke Audit Log",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ]
+            },
+            "labels": [
+              "Old -> new\nke Audit Log"
+            ],
+            "id": "b0a84d04-2715-4992-988b-0b9bb4df8f9a",
+            "source": {
+              "cell": "583c0f2c-35cc-4f5f-9b24-bf887b43435d",
+              "port": "10633142-4ca3-4325-aa27-a417cf86378d"
+            },
+            "target": {
+              "cell": "0e85c2eb-e60b-429d-8955-c919a9ca0fc8",
+              "port": "7e47eb08-7cc7-48ce-bc9d-cc109d371c83"
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -2733,11 +2673,11 @@
                 {
                   "id": "6a3288d2-334d-400b-8485-5fb09d73aebe",
                   "title": "SQL Injection ",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Critical",
                   "type": "Tampering",
                   "description": "SQL Injection pada kolom input pengajuan surat untuk memanipulasi atau membaca isi database secara langsung",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Parameterized queries/ORM, validasi & sanitasi input, WAF",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 5,
@@ -2750,33 +2690,33 @@
                   "severity": "Critical",
                   "type": "Elevation of privilege",
                   "description": "Memanipulasi nilai role di JWT token atau parameter request agar dapat menjalankan aksi Admin/Kepala Desa",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Verifikasi role dari database, JWT signature wajib divalidasi",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 8,
                   "score": "8"
                 },
                 {
-                  "id": "37e10ea3-05ad-4ad6-8cc9-37f001b11ce5",
-                  "title": "DoS pada createSurat()",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Denial of service",
-                  "description": "Membanjiri endpoint pengajuan surat untuk menghabiskan resource server dan database",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "id": "9fcf211e-f4e5-416e-abed-1e76b5541a57",
+                  "title": "XSS stored via form pengaduan",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Skrip berbahaya dieksekusi di browser Admin",
+                  "mitigation": "Output encoding, CSP, sanitasi dengan DOMPurify",
                   "modelType": "STRIDE",
                   "new": false,
-                  "number": 11,
-                  "score": "6"
+                  "number": 17,
+                  "score": "8"
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 1,
+                "tampering": 3,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 1
+                "denialOfService": 0,
+                "elevationOfPrivilege": 3
               }
             }
           },
@@ -2794,13 +2734,11 @@
                 "text": "Data Surat"
               },
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2897,7 +2835,7 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
@@ -2907,11 +2845,11 @@
                 {
                   "id": "31e0d413-778a-443c-8f64-e924e9136232",
                   "title": "Manipulasi HTTP Parameter",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "type": "Tampering",
                   "description": "Manipulasi parameter HTTP (suratId, status) untuk mengubah status surat tanpa melalui alur yang sah",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Validasi server-side tiap parameter, state machine status surat ketat",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 6,
@@ -2919,7 +2857,7 @@
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0
@@ -2942,7 +2880,7 @@
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
-                "strokeDasharray": null
+                "strokeDasharray": "4 3"
               }
             },
             "visible": true,
@@ -3036,7 +2974,7 @@
               "name": "External Attacker",
               "description": "",
               "isTrustBoundary": false,
-              "outOfScope": false,
+              "outOfScope": true,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
@@ -3215,7 +3153,25 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "bc519df2-1aa8-4e76-b8b8-c452010d805f",
+                  "title": "Menyamar sebagai warga lain",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Admin Desa menyamar sebagai warga lain untuk akses tidak sah ke data yang bukan haknya",
+                  "mitigation": "Session token terikat userId, RBAC cek role dari DB bukan token",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -3472,8 +3428,8 @@
                 "text": "Kelola Data\nPenduduk"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3570,12 +3526,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "6d296bc6-3648-44d3-81c2-f22bcf14c179",
+                  "title": "Modifikasi Tidak Sah",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Modifikasi tidak sah data kependudukan (NIK, alamat) untuk kepentingan pribadi tanpa audit trail",
+                  "mitigation": "Setiap perubahan dicatat Audit Log (old→new value), 4-eyes principle untuk data kritis",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": "8"
+                },
+                {
+                  "id": "6fa00dd4-dbd1-4a52-bc28-77ad7173bf72",
+                  "title": "Menyangkal Perubahan Data",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Menyangkal perubahan data penduduk yang dilakukan dengan klaim tidak ada bukti aktivitas",
+                  "mitigation": "Audit log immutable (WORM), catat userId+IP+oldValue+newValue, notifikasi ke supervisor",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -3646,11 +3637,13 @@
                 "text": "Data Penduduk"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3747,13 +3740,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "1fbd0a24-c72e-4582-816e-a4929cec9326",
+                  "title": "Mass Export Data ",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Mass export data kependudukan melalui fitur pencarian untuk dijual ke pihak ketiga",
+                  "mitigation": "Batasi bulk export, log query massal, deteksi anomali jumlah record, DLP",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": "9"
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -3924,7 +3937,25 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "fef2213e-0f14-442f-8687-12b930055f30",
+                  "title": "Menyangkal telah Menyetujui/Menolak Surat ",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Menyangkal telah menyetujui/menolak surat karena tidak ada bukti non-repudiation terikat pada identitasnya",
+                  "mitigation": "Digital signature PKI wajib setiap keputusan, audit log immutable simpan hash + signature + timestamp",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -4061,8 +4092,8 @@
                 "text": "Persetujuan\nSurat"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4159,12 +4190,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "cc91a2d5-a144-4a8a-b71a-2a02c2d22a3c",
+                  "title": "Abuse of Authority",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Menyetujui surat tanpa periksa kelengkapan data karena kepentingan pribadi (abuse of authority)",
+                  "mitigation": "Sistem tampilkan checksum/hash integritas data sebelum tanda tangan, status wajib 'Terverifikasi' dulu",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -4181,8 +4234,8 @@
                 "text": "PKI Service"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4279,12 +4332,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "47311cf1-abd1-49fb-8fb5-ec6d0981ca5c",
+                  "title": "Document Forgery",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Kompromitasi private key Kepala Desa untuk palsukan digital signature pada surat tidak sah (document forgery)",
+                  "mitigation": "Private key di HSM / smart card, bukan di server, rotasi kunci berkala, revocation certificate",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": "9"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -4401,7 +4476,25 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "47ac83e1-d1c1-4174-a93f-48a3172845a8",
+                  "title": "Menyangkal Perubahan Anggaran",
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Bendahara menyangkal perubahan data anggaran karena tidak ada bukti terikat ke identitasnya",
+                  "mitigation": "Setiap transaksi APBDes diikat userId+timestamp+IP di Audit Log immutable",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": "7"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -4538,8 +4631,8 @@
                 "text": "Kelola\nAPBDes"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4636,12 +4729,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "07c9adeb-8e53-44f2-b909-768c2552331b",
+                  "title": "Manipulasi Nilai Anggaran",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Manipulasi nilai anggaran/pos belanja secara sepihak untuk korupsi digital tanpa persetujuan Kepala Desa",
+                  "mitigation": "4-eyes principle: perubahan signifikan wajib disetujui Kepala Desa, audit log old ke new value, notifikasi otomatis",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": "9"
+                },
+                {
+                  "id": "0aecfd2d-6a59-40de-8497-3dc35105675b",
+                  "title": "Modikasi Log Transaksi",
+                  "status": "Mitigated",
+                  "severity": "Critical",
+                  "type": "Repudiation",
+                  "description": "Coba hapus atau modifikasi log transaksi keuangan untuk sembunyikan jejak manipulasi anggaran",
+                  "mitigation": "Audit log WORM storage, Bendahara tidak punya hak DELETE/UPDATE pada tabel log",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -4658,11 +4786,13 @@
                 "text": "Data APBDes"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -4759,13 +4889,33 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "7482215a-caa4-40ef-aece-c0681df3e463",
+                  "title": "Pembocoran Data",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Information disclosure",
+                  "description": "Ekstrak dan bocorkan data APBDes ke pihak eksternal (media, kompetitor) untuk keuntungan pribadi",
+                  "mitigation": "DLP untuk deteksi export massal, log setiap akses/download",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": "8"
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -5385,12 +5535,102 @@
               "name": "Internet",
               "hasOpenThreats": false
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 44,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Surat Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "5ced1afa-04b5-4da6-a244-8d21f97a81ac",
+                  "title": "IDOR",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Mengubah nilai parameter suratId di URL/request untuk mengakses data surat milik warga lain tanpa otorisasi",
+                  "mitigation": "Validasi kepemilikan server-side, indirect reference map",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": "7"
+                }
+              ],
+              "trustBoundaryIds": [
+                "73e01305-9521-41fd-997e-557cd4d7d955"
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Surat Data"
+            ],
+            "id": "277601ff-5476-4ac3-8464-a1164388a117",
+            "source": {
+              "cell": "8433ccd7-b2c9-4d60-9d75-cac5292a29dd",
+              "port": "58137d03-6927-47a3-9682-d1e9f1cb1c36"
+            },
+            "target": {
+              "cell": "5b029fbf-9372-4183-a0de-4d025735bffe",
+              "port": "4557e41b-5d6c-46d9-84d8-cb1a5ed70a49"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 160
+              },
+              {
+                "x": 680,
+                "y": 270
+              },
+              {
+                "x": 790,
+                "y": 230
+              },
+              {
+                "x": 910,
+                "y": 310
+              },
+              {
+                "x": 1120,
+                "y": 310
+              }
+            ]
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "Dosen dan Asisten Dosen",
-    "threatTop": 11
+    "threatTop": 33
   }
 }
