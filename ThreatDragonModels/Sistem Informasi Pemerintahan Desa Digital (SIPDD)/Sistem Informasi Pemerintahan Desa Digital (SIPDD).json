@@ -58,12 +58,12 @@
           },
           {
             "position": {
-              "x": -860.0000000000045,
-              "y": -449.9999999999988
+              "x": -860.0000000000098,
+              "y": -449.9999999999937
             },
             "size": {
               "width": 1640,
-              "height": 830
+              "height": 1920
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -102,7 +102,11 @@
                 "67689950-490d-4398-bc73-3731c3e89bbd",
                 "0e64fb03-cd52-4e33-af89-0ab76a5acb60",
                 "f0a4b8a4-a022-4791-9628-cf077b75d8a1",
-                "235b497d-c6e7-4247-b7e7-786490bc0456"
+                "235b497d-c6e7-4247-b7e7-786490bc0456",
+                "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
+                "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+                "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
+                "e9d331b4-92ba-4816-8d9b-72c20089420f"
               ]
             }
           },
@@ -225,7 +229,7 @@
           },
           {
             "position": {
-              "x": 333.75,
+              "x": 312.5,
               "y": -570
             },
             "size": {
@@ -2178,8 +2182,8 @@
             },
             "vertices": [
               {
-                "x": -850,
-                "y": -160
+                "x": -890,
+                "y": -170
               }
             ]
           },
@@ -2491,13 +2495,17 @@
               "y": -580
             },
             "target": {
-              "x": 510,
+              "x": 490,
               "y": -520
             },
             "vertices": [
               {
-                "x": 320,
-                "y": -460
+                "x": 300,
+                "y": -470
+              },
+              {
+                "x": 410,
+                "y": -490
               }
             ]
           },
@@ -2751,14 +2759,17 @@
           },
           {
             "position": {
-              "x": -1060,
-              "y": 310
+              "x": -1040,
+              "y": 470
             },
             "size": {
               "width": 112.5,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Admin Desa"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -2853,8 +2864,8 @@
             "id": "21372ea3-3828-4506-8afb-8f2c14bb579a",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
+              "name": "Admin Desa",
+              "description": "Operator sistem yang bertugas mengelola data harian dan verifikasi surat",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3042,6 +3053,507 @@
               "hasOpenThreats": false
             },
             "zIndex": 23
+          },
+          {
+            "position": {
+              "x": 791,
+              "y": -450
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Server\n(Trusted)"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "859eaa6a-ce0a-44fa-a764-6bba2dfd3d47",
+            "zIndex": 24,
+            "data": {
+              "type": "tm.Text",
+              "name": "Web Server\n(Trusted)",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -740,
+              "y": 455
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Login Admin"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e102c86f-5b40-4729-983d-a835f6880364"
+                },
+                {
+                  "group": "right",
+                  "id": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bea62052-2cbb-40d2-a09d-15de1a4a929f"
+                },
+                {
+                  "group": "left",
+                  "id": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+                }
+              ]
+            },
+            "id": "b76ea6c8-7c79-4fb2-bb4a-a0b7e3d82f51",
+            "zIndex": 25,
+            "data": {
+              "type": "tm.Process",
+              "name": "Login Admin",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -510,
+              "y": 440
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Verifikasi\nSurat"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e102c86f-5b40-4729-983d-a835f6880364"
+                },
+                {
+                  "group": "right",
+                  "id": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bea62052-2cbb-40d2-a09d-15de1a4a929f"
+                },
+                {
+                  "group": "left",
+                  "id": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+                }
+              ]
+            },
+            "id": "97e68c5c-d2a3-4127-ae01-1af5cdbec361",
+            "zIndex": 26,
+            "data": {
+              "type": "tm.Process",
+              "name": "Verifikasi\nSurat",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -310,
+              "y": 440
+            },
+            "size": {
+              "width": 90,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Kelola Data\nPenduduk"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e102c86f-5b40-4729-983d-a835f6880364"
+                },
+                {
+                  "group": "right",
+                  "id": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bea62052-2cbb-40d2-a09d-15de1a4a929f"
+                },
+                {
+                  "group": "left",
+                  "id": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+                }
+              ]
+            },
+            "id": "d2e01434-c9f4-4f60-be21-fbf4cbc54852",
+            "zIndex": 27,
+            "data": {
+              "type": "tm.Process",
+              "name": "Kelola Data\nPenduduk",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -115.00000000000003,
+              "y": 455
+            },
+            "size": {
+              "width": 120,
+              "height": 90
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e102c86f-5b40-4729-983d-a835f6880364"
+                },
+                {
+                  "group": "right",
+                  "id": "e41aaa11-f113-47b9-b8c0-5529f74c3ec0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bea62052-2cbb-40d2-a09d-15de1a4a929f"
+                },
+                {
+                  "group": "left",
+                  "id": "59b99090-5b5c-42c9-9ad8-f4c49b7389d6"
+                }
+              ]
+            },
+            "id": "e9d331b4-92ba-4816-8d9b-72c20089420f",
+            "zIndex": 28,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
           }
         ]
       }
