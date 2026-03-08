@@ -918,6 +918,152 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "fabf84e6-2522-4460-b9b0-42da92fae5ac",
+            "source": {
+              "cell": "68e879a9-3e39-4564-8c14-e886f3e777f8",
+              "port": "eafe02ac-03fb-4f00-8459-d553a8644f30"
+            },
+            "target": {
+              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
+              "port": "6d589a3a-9915-444b-a94e-3ac501d72110"
+            },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "2244067a-60fb-470b-b8af-04fa8724d4b0",
+            "source": {
+              "cell": "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+              "port": "454b3474-dc74-4a68-b57e-d1d0154d99d6"
+            },
+            "target": {
+              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
+              "port": "a459f7e4-13a1-4623-894f-2c9a5f1eeefe"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "CRUD Data\nPenduduk",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "CRUD Data\nPenduduk"
+            ],
+            "id": "8b70494d-6396-418d-90ec-e81918a2ceec",
+            "source": {
+              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
+              "port": "22dc3f41-63fa-41a3-bb01-ff03f393111a"
+            },
+            "target": {
+              "cell": "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+              "port": "bba997a8-df4d-48cc-853c-13a3fdbab1c5"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 950,
               "y": 90
@@ -1479,6 +1625,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1562,7 +1709,6 @@
               ]
             },
             "id": "68e879a9-3e39-4564-8c14-e886f3e777f8",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "Admin Desa",
@@ -1596,6 +1742,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1679,7 +1826,6 @@
               ]
             },
             "id": "bd54a2d3-4ed2-465d-a065-47e3f62c8ab2",
-            "zIndex": 17,
             "data": {
               "type": "tm.Process",
               "name": "Login \nAdmin",
@@ -1716,6 +1862,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -1799,7 +1946,6 @@
               ]
             },
             "id": "9f6ff35f-0a32-4723-9b8c-7c6e8a2a0a8a",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Verifikasi\nSurat",
@@ -1818,7 +1964,7 @@
           {
             "position": {
               "x": 505,
-              "y": 500
+              "y": 480
             },
             "size": {
               "width": 110,
@@ -1836,6 +1982,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -1919,7 +2066,6 @@
               ]
             },
             "id": "e878b833-842d-4bc1-95b2-cbacbb670f46",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Kelola Data\nPenduduk",
@@ -1932,6 +2078,182 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "08ecf5b4-c0ca-4652-8409-e9d132d12854",
+            "source": {
+              "cell": "e878b833-842d-4bc1-95b2-cbacbb670f46",
+              "port": "a459f7e4-13a1-4623-894f-2c9a5f1eeefe"
+            },
+            "target": {
+              "cell": "68e879a9-3e39-4564-8c14-e886f3e777f8",
+              "port": "eafe02ac-03fb-4f00-8459-d553a8644f30"
+            },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 555
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 950,
+              "y": 370
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data Penduduk"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6a0d3626-9364-4b20-9252-48d34f045ceb"
+                },
+                {
+                  "group": "right",
+                  "id": "cf8db7e8-2907-415e-a133-a64239007a46"
+                },
+                {
+                  "group": "bottom",
+                  "id": "454b3474-dc74-4a68-b57e-d1d0154d99d6"
+                },
+                {
+                  "group": "left",
+                  "id": "bba997a8-df4d-48cc-853c-13a3fdbab1c5"
+                }
+              ]
+            },
+            "id": "3cda0452-d8a8-41ca-85f1-37ebdeda0d32",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Store",
+              "name": "Data Penduduk",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
               "threats": []
             }
           }
